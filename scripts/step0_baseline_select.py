@@ -3,7 +3,8 @@
 Ranking sources (public download rankings, saved as plain name lists):
   npm:  wooorm/npm-high-impact lib/top.js (packages ordered by downloads), pinned commit
   PyPI: hugovk top-pypi-packages, top-pypi-packages.min.json (30-day downloads)
-Rule, applied in ranking order until N packages are selected per ecosystem:
+Rule, applied in ranking order until N[ecosystem] packages are selected (npm 60, PyPI 20;
+npm was extended from 20 to 60 in the Step 0 addendum, same rule):
   1. skip the package if any OSV malware advisory names it (MAL-*, GHSA-* with CWE-506,
      or a PYSEC id in PYSEC_MALWARE), so packages that were ever compromised are excluded;
   2. skip it if registry metadata lists fewer than MIN_RELEASES clean (non-pre-release)
@@ -12,6 +13,7 @@ Registry metadata only; no package archive is requested.
 
 Usage: python3 scripts/step0_baseline_select.py <npm top.js> <pypi top json>
 Output: data/baseline_ranking.csv (top RANK_LIMIT names per ecosystem, with the decision)
+        (the npm list holds 17,000+ names; RANK_LIMIT only bounds how far the rule may look)
         data/baseline_packages.csv (selected packages)
 """
 
@@ -25,8 +27,8 @@ from datetime import datetime, timezone
 from step0_availability import key_npm, key_pypi, pre_npm, pre_pypi, ts
 from step0_registry_versions import npm_times, pypi_times
 
-N = 20
-RANK_LIMIT = 100
+N = {"npm": 60, "pypi": 20}
+RANK_LIMIT = 200
 MIN_RELEASES = 2
 WINDOW_START = datetime(2022, 1, 1, tzinfo=timezone.utc)
 PYSEC_MALWARE = {"PYSEC-2024-154", "PYSEC-2022-199"}
@@ -56,7 +58,7 @@ def main():
         key, pre, times = (key_npm, pre_npm, npm_times) if eco == "npm" else (key_pypi, pre_pypi, pypi_times)
         n_sel = 0
         for rank, name in enumerate(names, 1):
-            if n_sel >= N:
+            if n_sel >= N[eco]:
                 decision = "NOT_REACHED"
             elif name.lower() in bad:
                 decision = "EXCLUDED_MALWARE_ADVISORY"

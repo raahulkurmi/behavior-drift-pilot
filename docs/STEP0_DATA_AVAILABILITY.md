@@ -446,3 +446,158 @@ within one ecosystem.
 | `data/excluded.csv` | excluded / UNCLEAR / UNAVAILABLE with reason |
 | `data/baseline_ranking.csv`, `data/baseline_packages.csv` | baseline selection |
 | `data/baseline_coverage.csv`, `data/baseline_records.csv` | baseline record existence and timing |
+
+## Addendum: comparison release and analysis-time gaps
+
+Added after the Step 0 commit (e34db7e). This section still uses metadata only: registry publish
+times and record object `timeCreated`. No record content was read. Script:
+`scripts/step0_addendum.py`. Outputs: `data/comparison.csv`, `data/benign_within.csv`,
+`data/benign_baseline_pairs.csv`.
+
+```sh
+# npm baseline extended to 60 (same rule); only the 40 new packages are fetched and appended,
+# so the Step 0 rows of registry_versions.csv / record_index.csv are unchanged
+PYTHONPATH=scripts python3 scripts/step0_baseline_select.py scratch/rankings/npm-high-impact-top.js scratch/rankings/top-pypi-packages.min.json
+cp data/packages.csv scratch/packages_step0.csv && python3 scripts/step0_packages.py
+(echo "ecosystem,package"; comm -13 <(tail -n +2 scratch/packages_step0.csv | sort) <(tail -n +2 data/packages.csv | sort)) > scratch/packages_addendum.csv
+python3 scripts/step0_registry_versions.py scratch/packages_addendum.csv scratch/registry_versions_addendum.csv
+python3 scripts/step0_record_index.py      scratch/packages_addendum.csv scratch/record_index_addendum.csv
+tail -n +2 scratch/registry_versions_addendum.csv >> data/registry_versions.csv
+tail -n +2 scratch/record_index_addendum.csv      >> data/record_index.csv
+PYTHONPATH=scripts python3 scripts/step0_baseline_coverage.py
+PYTHONPATH=scripts python3 scripts/step0_addendum.py
+```
+
+### a) prev1 published within 7 days before the malicious version, PyPI
+
+Same population and method as for npm: every malicious version with a minimal pair
+(`data/timing.csv`, 36 PyPI rows), comparing malicious publish time minus prev1 publish time
+against 7 days.
+
+| | rows | malicious publish time known | prev1 within 7 d (publish time) | prev1 within 7 d (proxy) |
+|---|---|---|---|---|
+| npm | 580 | 580 | 170 | - |
+| PyPI | 36 | 1 | 0 of 1 | 6 of 35 |
+
+PyPI no longer lists publish times for deleted malicious releases. For the other 35 rows the
+proxy is the malicious record's timeCreated. Records are created within hours of upload: every
+npm malicious record, and the one PyPI record with a known publish time, was created within 0.1 d.
+So PyPI has 6 of 36, against 170 of 580 for npm.
+
+### b) Comparison release (one per candidate)
+
+Rule: the **comparison release C0** is the latest clean release (by publish time) published at
+least 14 days before the **incident's** earliest advisory date. That date is the earliest malware
+advisory of any package in the same incident from `data/clusters.csv`, across both ecosystems. Clean means
+not listed as malicious, not a pre-release, a valid version, and a known publish time. The
+malicious side is the package's **earliest malicious version**: earliest registry publish time,
+or record timeCreated where the release was deleted. The analysis-time gap is the malicious
+record's timeCreated minus C0's record timeCreated, in days.
+
+- **Eligible** = tier A, established, a record for the earliest malicious version, a record for C0,
+  and C0 published before the earliest malicious version. The last condition is my addition, not
+  part of the rule as given. It drops 2 packages (@asyncapi/studio, art-template) whose C0 came
+  out after the malicious release but more than 14 days before the incident's advisory. Please
+  confirm or remove it.
+- 27 npm candidates (1 of them eligible) have a C0 whose version is higher than the malicious
+  version (another release line), flagged `C0_VERSION_ABOVE_MALICIOUS`. The rule as given allows
+  this. They remain eligible.
+
+| | npm | PyPI |
+|---|---|---|
+| candidates | 1,449 | 32 |
+| C0 found | 1,449 | 31 (ctx: registry 404) |
+| C0 has a record | 456 | 27 |
+| earliest malicious version has a record | 502 | 25 |
+| ... only a later malicious version has a record | 423 | 0 |
+| **eligible (tier A)** | **150** | **22** |
+
+The earliest-version rule and the 14-day rule together cut the Step 0 minimal-pair set (343
+packages, 15 incidents) to **172 packages in 13 incidents**. That is 7 families, or 5 linked
+groups (the Shai-Hulud family, CanisterWorm and telnyx are linked through TeamPCP). The largest
+single loss is 423 npm packages where the worm's first malicious release has no record but a
+later one does. Capped at 10 per incident, the sample would hold **66 packages**.
+
+| incident | family | candidates | earliest malicious recorded | C0 recorded | eligible | sampled (<=10) | gap <90 / 90-365 / >365 d | within-package pairs, both recorded (<90 / 90-365 / >365) |
+|---|---|---|---|---|---|---|---|---|
+| Mini Shai-Hulud is back | Shai-Hulud | 324 | 169 | 106 | 61 | 10 | 20 / 15 / 26 | 31 (24 / 5 / 2) |
+| Sha1-Hulud: The Second Coming | Shai-Hulud | 449 | 202 | 134 | 53 | 10 | 5 / 11 / 37 | 22 (16 / 6 / 0) |
+| Mini Shai-Hulud | Shai-Hulud | 45 | 39 | 19 | 18 | 10 | 5 / 11 / 2 | 25 (16 / 7 / 2) |
+| Shai-Hulud (first wave) | Shai-Hulud | 135 | 48 | 49 | 14 | 10 | 6 / 6 / 2 | 10 (8 / 1 / 1) |
+| CanisterWorm | CanisterWorm | 40 | 23 | 21 | 10 | 10 | 9 / 1 / 0 | 9 (7 / 2 / 0) |
+| Shai-Hulud: Here We Go Again | Shai-Hulud | 352 | 18 | 97 | 6 | 6 | 4 / 0 / 2 | 5 (3 / 2 / 0) |
+| Hades | Shai-Hulud | 4 | 3 | 4 | 3 | 3 | 0 / 3 / 0 | 6 (2 / 3 / 1) |
+| Miasma | Miasma | 44 | 12 | 20 | 2 | 2 | 0 / 1 / 1 | 1 (0 / 0 / 1) |
+| unnamed-2026-05-19 | - | 5 | 2 | 3 | 1 | 1 | 1 / 0 / 0 | 2 (2 / 0 / 0) |
+| unnamed-2026-02-06 (dydx-v4-client) | - | 1 | 1 | 1 | 1 | 1 | 0 / 1 / 0 | 2 (1 / 1 / 0) |
+| unnamed-2025-07-31 (num2words) | - | 1 | 1 | 1 | 1 | 1 | 0 / 1 / 0 | 2 (0 / 0 / 2) |
+| unnamed-2026-03-27 (telnyx) | - | 1 | 1 | 1 | 1 | 1 | 1 / 0 / 0 | 2 (2 / 0 / 0) |
+| Shai-Hulud (wave unspecified) | Shai-Hulud | 1 | 1 | 1 | 1 | 1 | 1 / 0 / 0 | 0 |
+
+Tier-A incidents with no eligible package: IronWorm, s1ngularity, unnamed-2025-09-08 (the Qix
+phishing), unnamed-2026-02-19 (cline), unnamed-2024-12-10 (ultralytics), and seven other unnamed
+groups.
+
+Tier B: **litellm**: C0 = 1.82.1, both recorded, gap 14.1 d. **ua-parser-js**: C0 = 0.7.28, no
+records. **ctx**: no C0 (registry 404).
+
+**The analysis-time gap is long on the compromised side.** For the 172 eligible packages the
+median gap is 223 days: 52 are under 90 d, 50 are 90-365 d, and 70 are over 365 d. The 14-day
+rule pushes the comparison release back, and many compromised packages had not released for
+months. The benign pairs below are mostly under 90 d, so a comparison that is not stratified by
+gap would confound package compromise with sandbox drift.
+
+### c) npm baseline extended to 60 packages
+
+Same rule (`scripts/step0_baseline_select.py`, `N = {"npm": 60, "pypi": 20}`, ranking window
+widened to 200 names; the 60th selected package is at rank 86). The first 20 npm selections and
+all 20 PyPI selections are unchanged. Rule 1 still excludes the same 9 npm packages, and rule 2
+now excludes 17. `data/baseline_packages.csv`, `data/baseline_ranking.csv`,
+`data/baseline_coverage.csv` and `data/baseline_records.csv` now hold the extended version. The
+Step 0 numbers above are for the first 20.
+
+The 40 added npm packages: p-limit, uuid, undici-types, ignore, iconv-lite, signal-exit, esbuild,
+is-fullwidth-code-point, js-yaml, entities, globals, postcss, isexe, argparse, ws, mime-db,
+resolve, agent-base, @esbuild/linux-x64, yargs-parser, mime-types, acorn, cross-spawn, react-is,
+picocolors, fs-extra, hasown, nanoid, yargs, pretty-format, json5, https-proxy-agent,
+path-to-regexp, punycode, js-tokens, cliui, @babel/types, chokidar, strip-json-comments,
+webidl-conversions.
+
+| npm baseline | 20 packages (Step 0) | 60 packages |
+|---|---|---|
+| releases since 2022 | 654 | 1,748 |
+| with a record | 279 (43%) | 704 (40%) |
+| record created within 7 d of release | 279 | 703 |
+| consecutive pairs with both records | 126 / 634 | 301 / 1,688 |
+| packages with >= 1 such pair | 17 | 45 |
+
+### d) Analysis-time gap of benign pairs
+
+**Within-package benign pairs** (the candidates' own clean history, built the same way as C0). C1 is
+the latest clean release published at least 14 days before C0, and C2 the same for C1. The pairs
+are C1->C0 and C2->C1. The gap is the newer record's timeCreated minus the older one's.
+
+| | pairs | both recorded | packages | incidents | gap <90 / 90-365 / >365 d |
+|---|---|---|---|---|---|
+| all candidates | 2,562 | 300 | 223 | 18 | 222 / 66 / 12 |
+| eligible candidates only | 303 | 117 | 75 | 12 | 81 / 27 / 9 |
+
+**Top-download baseline pairs** (consecutive clean releases since 2022, both recorded):
+
+| | recorded pairs | packages | gap <90 / 90-365 / >365 d | of which release spacing >= 14 d | packages | gap <90 / 90-365 / >365 d |
+|---|---|---|---|---|---|---|
+| npm (60 packages) | 301 | 45 | 255 / 38 / 8 | 133 | 40 | 88 / 38 / 7 |
+| PyPI (20 packages) | 2,515 | 20 | 2,435 / 68 / 12 | 266 | 17 | 190 / 67 / 9 |
+
+No benign pair has a negative gap: the newer release's record is always the later one.
+
+**What this means for the design.** The >365 d stratum holds 70 eligible compromised comparisons
+but only 9 within-package benign pairs from eligible candidates, plus 7 (npm) and 9 (PyPI)
+top-download pairs with 14-day spacing. Benign evidence about drift over a gap of more than a year
+will be thin in every source.
+
+| file (addendum) | content |
+|---|---|
+| `data/comparison.csv` | per candidate: incident date, earliest malicious version, C0, record existence, gap, flags, eligibility |
+| `data/benign_within.csv` | per candidate: C1->C0 and C2->C1 pairs, record existence, gap |
+| `data/benign_baseline_pairs.csv` | top-download consecutive pairs with both records: release spacing and gap |
