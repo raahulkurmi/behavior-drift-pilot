@@ -210,12 +210,18 @@ Source: `Commands[].Command` (the argv passed to execve).
   P1 applied to the first word of `argv[2]` (split with `shlex.split`, or on whitespace if that
   fails). The shell itself is not an item. This unwrapping is applied once.
 - **P4.** If the executable from P1-P3 is one of `npm`, `npx`, `yarn`, `pnpm`, `pip`, `node`,
-  `python` or `bun`, the item is the executable, a space, and the first non-flag argument after
-  it. A flag is an argument starting with `-`. If that argument contains `/`, its last path
+  `python` or `bun`, the arguments after it are scanned in order:
+  - **Inline-code flags.** If one of the flags `-e`, `--eval`, `-p`, `--print` or `-c` comes
+    before the first non-flag argument, the item is the executable, a space, and that flag (for
+    example `node -e`, `python -c`). The argument after it is not used. A flag written with `=`
+    (`--eval=...`, `--print=...`) counts as the flag.
+  - **Otherwise,** the item is the executable, a space, and the first non-flag argument after
+    it. A flag is an argument starting with `-`. If that argument contains `/`, its last path
   segment is used (the basename of a script path); otherwise the argument itself is used (a
   subcommand). The result is generalised with F3. If there is no non-flag argument, the item is
   the executable alone. Examples: `npm install x` -> `npm install`;
-  `node /app/node_modules/p/setup.js` -> `node setup.js`; `python3 -m pip install` -> `python pip`.
+  `node /app/node_modules/p/setup.js` -> `node setup.js`; `python3 -m pip install` -> `python pip`;
+  `node -e "<code>"` -> `node -e`; `python3 -c "<code>"` -> `python -c`.
 - **P5.** For any other executable, the item is the executable from P1-P3.
 
 ### 5.5 New capability
@@ -246,6 +252,14 @@ non-empty, and a **new capability** if this holds for at least one of the four c
   also reported per ecosystem and pooled.
 - A cell with fewer than 5 incidents (M1) or fewer than 10 pairs (M1p/M2/M3) is reported as counts
   only and marked "not evaluable" for the predictions.
+- **Credential entries masked by the harness.** For each ecosystem, any credential-list entry
+  (5.3) present in at least 95% of the evaluable **older** records (the O side of all compromised,
+  within-package and baseline pairs of that ecosystem) is reported as "masked by harness" for that
+  ecosystem. It is still counted in every metric, and H5 is unchanged.
+- **Post-2024 sensitivity.** M1, M1p and M2 are recomputed on the pairs where both records were
+  created on or after 2024-01-01. That is after the SSH-key bait (2023-10-24) and the AWS
+  environment-variable bait (2023-11-15) entered the source, with a margin for deployment. These
+  results are reported next to the primary ones; no prediction is evaluated on them.
 
 ## 7. Predictions
 
@@ -312,6 +326,11 @@ command is published.
 - **Dropped `/tmp/` writes.** Dropping writes under `/tmp/` (F2) hides payloads that stage files
   there, for example a downloaded second stage written to `/tmp/` before it is run. Such a payload
   is still visible if it spawns a process or opens a network connection.
+- **Harness reads mask payload reads.** The package managers read some listed files themselves
+  during every install (npm reads its config, including `~/.npmrc`; pip reads its own
+  configuration). Such an entry is in the older record too, so a payload reading the same file
+  cannot show as new. This makes the credential part of H5 easier to pass. Entries affected this
+  way are reported as "masked by harness" (section 6).
 - **Bait files changed over time.** The SSH key-pair bait in `/root/.ssh` and the AWS
   environment-variable bait were added to the source in October and November 2023 (section 5.3).
   Their deployment dates are not known. Because failed opens are recorded, an attempt to read
@@ -363,3 +382,19 @@ Original pre-registration: commit cfa9957 (2026-10-17). The amendment below is i
   there; the SSH and AWS baits were added to the sandbox in late 2023 (source history).
   *Reason:* requested in review, and found while answering Step 1.
 - **2026-10-17, status line:** "Final, amended 2026-10-17; see section 11."
+
+Amendment 2, commit "Pre-registration amendment 2". Still no record content read at that point.
+
+- **2026-10-17, section 6 (credential masking):** per ecosystem, a credential-list entry present
+  in >= 95% of evaluable older records (O side of all pairs) is reported as "masked by harness";
+  it is still counted in all metrics, and H5 is unchanged. A matching limitation was added to
+  section 10. *Reason:* npm and pip read some listed files themselves, so a payload read of the
+  same file cannot appear as new; readers need to see which entries this affects.
+- **2026-10-17, section 6 (post-2024 sensitivity):** M1, M1p and M2 are also computed on pairs
+  where both records were created on or after 2024-01-01, and reported next to the primary results
+  with no prediction evaluated. *Reason:* the SSH-key and AWS-variable baits were added in late
+  2023; this shows whether pairs straddling that change drive the results.
+- **2026-10-17, section 5.4 (P4):** for `-e`, `--eval`, `-p`, `--print` and `-c` appearing before
+  the first non-flag argument, the item is the executable plus the flag (for example `node -e`);
+  the following argument is not used. *Reason:* the inline code string would otherwise become the
+  item, so every change to inline code would count as a new process capability.
