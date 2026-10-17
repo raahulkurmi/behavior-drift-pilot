@@ -1,6 +1,7 @@
 # Pre-registration: install-time behaviour drift in compromised releases
 
-Status: draft for review, written before any behaviour field of any analysis record has been read.
+Status: Final, amended 2026-10-17; see section 11. Written before any behaviour field of any
+analysis record has been read.
 Data availability and every count below come from Step 0 and the Step 0 addendum
 (`docs/STEP0_DATA_AVAILABILITY.md`, commits e34db7e and 1650537), which used metadata only.
 
@@ -23,6 +24,12 @@ analyses.
   of ossf/package-analysis at commit c5c45008da694036d701ba76fe9567fc8a5b9675. If the stored
   records use different key names, a key-name mapping is written down in section 11 before any
   comparison is computed, based on key names only.
+- Public Suffix List (used in 5.1): `public_suffix_list.dat` from github.com/publicsuffix/list
+  at commit 2dbfce14c57bcea83fef2be3bdcb560667d7ef93 (committed 2026-10-16T23:32:05Z, the
+  current `main` on 2026-10-17).
+- Integrity: for every record used, its object name, GCS `generation`, `md5Hash` and
+  `timeCreated` (bucket metadata) are committed. The analysis script fetches each record again by
+  name, checks its `md5Hash` against the committed value, and stops on any mismatch.
 
 ## 3. Units and sample
 
@@ -105,10 +112,9 @@ set of items per category. The rules are applied in the order given.
 Sources: `Sockets[]` and `DNS[].Queries[].Hostname`.
 
 - **N1. Hostnames.** Lowercase each hostname, strip a trailing dot, and map it to its
-  **registrable domain** (eTLD+1) using the Public Suffix List, ICANN and private sections, at the
-  commit of github.com/publicsuffix/list current on the day analysis starts. That commit is
-  recorded in section 11. A hostname that is itself a public suffix, or cannot be parsed, is kept
-  as is.
+  **registrable domain** (eTLD+1) using the Public Suffix List, ICANN and private sections, pinned
+  to commit 2dbfce14c57bcea83fef2be3bdcb560667d7ef93 (2026-10-16; section 2). A hostname that is
+  itself a public suffix, or cannot be parsed, is kept as is.
 - **N2. Sockets with a hostname.** For each socket with a non-empty `Hostnames`, the items are the
   registrable domains of its hostnames. The address is then ignored.
 - **N3. Sockets without a hostname.** Classify `Address`:
@@ -154,10 +160,42 @@ the full path. Fixed list (glob, `*` = one segment, `**` = any depth):
 | `~/.pypirc` | `~/.azure/**` |
 | `~/.netrc` | `~/.kube/config` |
 | `~/.git-credentials` | `~/.docker/config.json` |
-| `~/.gitconfig` | `~/.config/gh/hosts.yml` |
-| `~/.ssh/*` | `~/.bash_history`, `~/.zsh_history` |
-| `~/.aws/credentials`, `~/.aws/config` | `/etc/shadow` |
-| `/proc/*/environ` | any path whose last segment is `.env` or starts with `.env.` |
+| `~/.ssh/*` | `~/.config/gh/hosts.yml` |
+| `~/.aws/credentials`, `~/.aws/config` | `~/.bash_history`, `~/.zsh_history` |
+| `/proc/*/environ` | `/etc/shadow` |
+| any path whose last segment is `.env` or starts with `.env.` | |
+
+**What `Read == true` means** (source code of ossf/package-analysis at commit c5c4500; no record
+content was used):
+- `Read` is set from the open flags alone. `parseOpenFlags` (`internal/strace/strace.go:96-114`)
+  sets `read` for `O_RDONLY` or `O_RDWR`. The `open` and `openat` cases of `parseExitSyscall`
+  (`strace.go:240-259`) pass it to `recordFileAccess` (`strace.go:149-156`), which creates the
+  `Files[]` entry.
+- The syscall's return value and errno are never examined: `stracePattern`, `openPattern` and
+  `openatPattern` (`strace.go:28, 34, 36`) capture only the arguments.
+- The package's own tests confirm this. `strace_test.go:31-38` (`TestParseFileReadThenCreate`),
+  `:230-238` (`open_rdonly`) and `:266-274` (`openat_rdonly`) feed exit lines ending in
+  `errno=2 (no such file or directory)` and expect an entry with `Read: true`.
+- `stat`, `fstat`, `lstat` and `newfstatat` also record `Read: true` (`strace.go:291-306`).
+
+So **a failed open (ENOENT) does create a `Files[]` entry with `Read == true`**. This category
+therefore means *an attempted open or stat of a listed path*, whether or not the file exists. It
+can detect probing for files that are absent, and the credential part of H5 stays informative.
+
+**Sandbox home directory** (HOME is `/root`; the Dockerfile has no `USER` directive):
+- `/root/.ssh/id_rsa` and `/root/.ssh/id_rsa.pub`: a key pair generated for every run and copied
+  in before analysis. `addSSHKeysToSandbox`, `internal/worker/rundynamic.go:72-107`, is called at
+  `:179`. It was added in commit 6db7dcb4c4 (2023-10-24).
+- Fake AWS keys are set as the environment variables `AWS_ACCESS_KEY_ID` and
+  `AWS_SECRET_ACCESS_KEY` (`rundynamic.go:157-163`; commit 0a8385a77f, 2023-11-15). They are not
+  files.
+- The source creates no `~/.npmrc`, `~/.pypirc`, `~/.aws/`, `~/.netrc`, `~/.docker/`,
+  `~/.kube/` or cloud-CLI credential files: `sandboxes/dynamicanalysis/Dockerfile:1-179` and a
+  repository-wide search.
+- The image does contain `/app/.bowerrc` (`Dockerfile:99`), the pip virtualenv `/app/.pyenv`
+  (`:112`) and a cargo project in `/app` (`:135`).
+- Other dotfiles under `/root` (base-image defaults, caches left by the build-time `npm install -g`
+  and `pip install`) are not visible from the source.
 
 ### 5.4 Process spawns
 
@@ -171,9 +209,14 @@ Source: `Commands[].Command` (the argv passed to execve).
 - **P3.** If the executable is `sh`, `bash`, `dash` or `zsh` and `argv[1] == "-c"`, the item is
   P1 applied to the first word of `argv[2]` (split with `shlex.split`, or on whitespace if that
   fails). The shell itself is not an item. This unwrapping is applied once.
-- **P4.** Otherwise the item is the executable from P1. The sandbox harness
-  (`/usr/local/bin/analyze-*`, `npm init`, `npm install`, `pip install`) runs in both records of a
-  pair and cancels by construction; nothing else is dropped.
+- **P4.** If the executable from P1-P3 is one of `npm`, `npx`, `yarn`, `pnpm`, `pip`, `node`,
+  `python` or `bun`, the item is the executable, a space, and the first non-flag argument after
+  it. A flag is an argument starting with `-`. If that argument contains `/`, its last path
+  segment is used (the basename of a script path); otherwise the argument itself is used (a
+  subcommand). The result is generalised with F3. If there is no non-flag argument, the item is
+  the executable alone. Examples: `npm install x` -> `npm install`;
+  `node /app/node_modules/p/setup.js` -> `node setup.js`; `python3 -m pip install` -> `python pip`.
+- **P5.** For any other executable, the item is the executable from P1-P3.
 
 ### 5.5 New capability
 
@@ -188,16 +231,20 @@ non-empty, and a **new capability** if this holds for at least one of the four c
   positive (a tie is not positive). M1 is the share of incidents that are positive, with a Wilson
   95% interval. It is also reported per category, and with families and linked groups as the
   unit: there, the majority is taken over the sampled packages of all incidents in the group.
+- **M1p. Compromised, package level.** M1p is the share of evaluable sampled compromised pairs
+  (one per package) that show a new capability. The 95% interval comes from a cluster bootstrap
+  over incidents (resample incidents with replacement, pool their sampled packages): 10,000
+  resamples, `random.Random(SEED)`. M1p is reported overall, per category and per gap stratum.
 - **M2. Benign, primary.** M2 is the share of evaluable within-package pairs of the sampled
   packages that show a new capability. The 95% interval comes from a cluster bootstrap over
   packages: 10,000 resamples, `random.Random(SEED)`. A package-weighted share (each package's own
   share, averaged) is reported as a sensitivity. M2 is also reported per category.
 - **M3. Benign, secondary.** The same as M2, on the gap-matched top-download pairs.
-- **Stratification.** M1, M2 and M3 are each reported per gap stratum (<90 d, 90-365 d, >365 d).
+- **Stratification.** M1, M1p, M2 and M3 are each reported per gap stratum (<90 d, 90-365 d, >365 d).
   For M1 within a stratum, an incident is evaluated on its sampled packages whose compromised pair
   falls in that stratum, and incidents with none are omitted from that stratum. Each metric is
   also reported per ecosystem and pooled.
-- A cell with fewer than 5 incidents (M1) or fewer than 10 pairs (M2/M3) is reported as counts
+- A cell with fewer than 5 incidents (M1) or fewer than 10 pairs (M1p/M2/M3) is reported as counts
   only and marked "not evaluable" for the predictions.
 
 ## 7. Predictions
@@ -214,7 +261,7 @@ whole 95% interval also meets it. Otherwise it fails, unless it is not evaluable
   points higher than in the <90 d stratum: drift in the sandbox and the base image adds new items
   without any compromise. It is evaluated on M2. If M2 has fewer than 10 pairs in the >365 d
   stratum, it is evaluated on M2 and M3 pooled, and this is said in the report.
-- **H4 (contrast within the shortest gap).** In the <90 d stratum, M1 - M2 >= 0.50.
+- **H4 (contrast within the shortest gap).** In the <90 d stratum, M1p - M2 >= 0.50.
 - **H5 (category specificity, benign).** A new credential-file read appears in <= 5% of benign
   pairs (M2 and M3 each), and a new network destination in <= 15% of benign pairs (M2).
 
@@ -225,15 +272,21 @@ No other hypothesis is tested. Any further analysis is labelled exploratory.
 1. Commit `scripts/sample.py` and the drawn sample (names stay in the private repository).
 2. Commit the normalisation code (section 5) and unit tests built from hand-written synthetic
    records, before any real record is read.
-3. Download the needed records anonymously, then compute M1-M3 and evaluate H1-H5 in one run. The
-   per-pair item sets stay private.
-4. Any deviation from this document is written in section 11 with its date and reason before the
+3. Download the needed records anonymously into the git-ignored `scratch/` directory. Commit, per
+   record used: object name, GCS `generation`, `md5Hash`, `timeCreated`.
+4. Compute M1, M1p, M2, M3 and evaluate H1-H5 in one run. The analysis script fetches each record
+   again by name, verifies its `md5Hash` against the committed value, and stops on any mismatch.
+5. Record contents and per-pair item sets are **never committed**. They live only in `scratch/`.
+   Only the aggregate outputs (section 9) are committed.
+6. Any deviation from this document is written in section 11 with its date and reason before the
    affected numbers are reported.
 
 ## 9. Public outputs
 
-Only aggregate behaviour results are published: shares, intervals, and counts per category,
-stratum and ecosystem. Package names appear only as citations of public advisories (advisory id,
+Only aggregate behaviour results are published and committed: shares, intervals, and counts per
+category, stratum and ecosystem. Record contents and per-pair item sets are never committed
+(section 8); the committed per-record data are object name, generation, `md5Hash` and
+`timeCreated` only. Package names appear only as citations of public advisories (advisory id,
 with the package named as in that advisory). No per-package behaviour, item list, domain, path or
 command is published.
 
@@ -256,6 +309,15 @@ command is published.
 - **Normalisation choices.** Dropping registry domains hides exfiltration or self-publishing
   through the registry. Dropping install directories hides writes inside them. Generalising paths
   can merge distinct files. All of these push toward fewer new capabilities on both sides.
+- **Dropped `/tmp/` writes.** Dropping writes under `/tmp/` (F2) hides payloads that stage files
+  there, for example a downloaded second stage written to `/tmp/` before it is run. Such a payload
+  is still visible if it spawns a process or opens a network connection.
+- **Bait files changed over time.** The SSH key-pair bait in `/root/.ssh` and the AWS
+  environment-variable bait were added to the source in October and November 2023 (section 5.3).
+  Their deployment dates are not known. Because failed opens are recorded, an attempt to read
+  `~/.ssh/*` is visible either way, but behaviour that depends on the file existing (for example,
+  reading and then exfiltrating it) can differ between records created before and after the bait.
+  This is one concrete form of the sandbox drift that the gap strata are meant to capture.
 - **Record selection.** Records exist only for releases the pipeline saw: about 40% of npm
   baseline releases and 89% of PyPI releases. The earliest-malicious-version rule excludes 423 npm
   packages whose first malicious release has no record.
@@ -264,6 +326,40 @@ command is published.
 
 ## 11. Deviations and recorded parameters
 
-- (open) Eligibility includes "C0 published before the earliest malicious version"; this was added
-  in the Step 0 addendum and is pending review.
-- Public Suffix List commit: to be recorded on the day analysis starts.
+Original pre-registration: commit cfa9957 (2026-10-17). The amendment below is in commit
+"Pre-registration amendment". No record content had been read at either point.
+
+- **2026-10-17, closed:** the eligibility condition "C0 published before the earliest malicious
+  version" (added in the Step 0 addendum) is **kept**, by decision of the author.
+- **2026-10-17, sections 2, 8, 9 (integrity and confidentiality):** record contents and per-pair
+  item sets are never committed and live only in the git-ignored `scratch/`. Per record, object
+  name, GCS generation, md5Hash and timeCreated are committed, and the analysis script re-fetches
+  by name, verifies md5Hash and stops on mismatch. *Reason:* makes the inputs verifiable without
+  publishing behaviour data.
+- **2026-10-17, section 5.4 (process spawns):** for npm, npx, yarn, pnpm, pip, node, python and
+  bun, the item is the executable plus the first non-flag argument (a subcommand, or the basename
+  of a script path), generalised with F3 (new P4). Other executables are unchanged (P5). The
+  sentence saying that harness commands cancel by construction was removed. *Reason:* with the
+  executable alone, every pair contains `npm`, `node` or `python`, so a new install script or a
+  new package-manager subcommand would never show as new.
+- **2026-10-17, section 5.3 (credential files):** `~/.gitconfig` was removed from the list.
+  *Reason:* it is ordinary git configuration, not a credential store, and git reads it routinely.
+- **2026-10-17, section 5.3 (Step 1 answer):** from the source code, failed opens (ENOENT) **are**
+  recorded with `Read == true`, and stat calls are recorded as reads too. The category means an
+  attempted access, whether or not the file exists. The amendment request's conditional ("if
+  failed opens are not recorded, mark the credential part of H5 uninformative") therefore does not
+  apply. The credential part of H5 remains a regular prediction. The sandbox home-directory
+  contents visible in the source were also added. *Reason:* states exactly what the category
+  measures.
+- **2026-10-17, sections 6 and 7:** M1p was added (package-level share of sampled compromised
+  pairs, cluster bootstrap over incidents, 10,000 resamples, `random.Random(SEED)`). H4 now uses
+  M1p instead of M1: in the <90 d stratum, M1p - M2 >= 0.50. H1-H3 and H5 thresholds are
+  unchanged. *Reason:* M1 is a share of about 13 incidents, and an incident-level share minus a
+  pair-level share mixes units; M1p and M2 are both pair-level shares.
+- **2026-10-17, sections 2 and 5.1:** the Public Suffix List is pinned to commit
+  2dbfce14c57bcea83fef2be3bdcb560667d7ef93 (2026-10-16T23:32:05Z). *Reason:* fix the domain
+  mapping before analysis instead of on the day it starts.
+- **2026-10-17, section 10:** limitations added: dropping `/tmp/` writes hides payloads staged
+  there; the SSH and AWS baits were added to the sandbox in late 2023 (source history).
+  *Reason:* requested in review, and found while answering Step 1.
+- **2026-10-17, status line:** "Final, amended 2026-10-17; see section 11."
