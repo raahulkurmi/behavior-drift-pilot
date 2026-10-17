@@ -1,0 +1,6 @@
+prediction,threshold,estimate,outcome
+H1,M1 >= 0.80,"M1 = 7/12 = 0.583 [0.320, 0.807]",fails
+H2,M2 <= 0.30 pooled and M2 <= 0.20 in <90 d,"M2 = 7/56 = 0.125 [0.037, 0.228]; <90 d: 4/39 = 0.103 [0.000, 0.225]",holds
+H3,benign rate >365 d minus <90 d >= 0.15,"on M2 and M3 pooled (M2 has fewer than 10 pairs in >365 d): >365 d 8/18 = 0.444, <90 d 15/108 = 0.139, difference +0.306 [+0.080, +0.532]",holds
+H4,"in <90 d, M1p - M2 >= 0.50","M1p 19/22 = 0.864, M2 4/39 = 0.103, difference +0.761 [+0.470, +0.923]",holds
+H5,new credential read <= 0.05 (M2 and M3); new network destination <= 0.15 (M2),"credential M2 1/56 = 0.018 [0.000, 0.057], M3 5/145 = 0.034 [0.008, 0.065]; network M2 1/56 = 0.018 [0.000, 0.056]",holds

@@ -1,0 +1,283 @@
+metric,ecosystem,stratum,category,subset,positive,denominator,share,ci_low,ci_high,clusters,package_weighted,evaluable_cell
+M1,pooled,all,any,primary,7,12,0.5833,0.3195,0.8067,12,,YES
+M1p,pooled,all,any,primary,37,44,0.8409,0.6296,0.9464,12,0.6042,YES
+M2,pooled,all,any,primary,7,56,0.1250,0.0370,0.2281,34,0.1176,YES
+M3,pooled,all,any,primary,29,145,0.2000,0.1418,0.2647,57,0.2442,YES
+M1,pooled,all,network,primary,3,12,0.2500,0.0889,0.5323,12,,YES
+M1p,pooled,all,network,primary,16,44,0.3636,0.1064,0.6596,12,0.3042,YES
+M2,pooled,all,network,primary,1,56,0.0179,0.0000,0.0556,34,0.0147,YES
+M3,pooled,all,network,primary,8,145,0.0552,0.0210,0.0956,57,0.0839,YES
+M1,pooled,all,file_write,primary,1,12,0.0833,0.0149,0.3539,12,,YES
+M1p,pooled,all,file_write,primary,8,44,0.1818,0.0000,0.4667,12,0.0917,YES
+M2,pooled,all,file_write,primary,4,56,0.0714,0.0172,0.1429,34,0.0735,YES
+M3,pooled,all,file_write,primary,15,145,0.1034,0.0593,0.1519,57,0.1363,YES
+M1,pooled,all,credential,primary,2,12,0.1667,0.0470,0.4480,12,,YES
+M1p,pooled,all,credential,primary,9,44,0.2045,0.0417,0.4400,12,0.2167,YES
+M2,pooled,all,credential,primary,1,56,0.0179,0.0000,0.0566,34,0.0147,YES
+M3,pooled,all,credential,primary,5,145,0.0345,0.0075,0.0652,57,0.0249,YES
+M1,pooled,all,process,primary,7,12,0.5833,0.3195,0.8067,12,,YES
+M1p,pooled,all,process,primary,37,44,0.8409,0.6296,0.9464,12,0.6042,YES
+M2,pooled,all,process,primary,3,56,0.0536,0.0000,0.1186,34,0.0588,YES
+M3,pooled,all,process,primary,12,145,0.0828,0.0411,0.1286,57,0.0933,YES
+M1_family,pooled,all,any,primary,3,6,0.5000,0.1876,0.8124,6,,YES
+M1_linked,pooled,all,any,primary,2,5,0.4000,0.1176,0.7693,5,,YES
+M1,pooled,<90,any,primary,6,8,0.7500,0.4093,0.9285,8,,YES
+M1p,pooled,<90,any,primary,19,22,0.8636,0.6000,0.9750,8,0.7188,YES
+M2,pooled,<90,any,primary,4,39,0.1026,0.0000,0.2250,28,0.0714,YES
+M3,pooled,<90,any,primary,11,69,0.1594,0.0758,0.2540,41,0.1585,YES
+M1,pooled,<90,network,primary,3,8,0.3750,0.1368,0.6943,8,,YES
+M1p,pooled,<90,network,primary,6,22,0.2727,0.0250,0.6923,8,0.3438,YES
+M2,pooled,<90,network,primary,1,39,0.0256,0.0000,0.0811,28,0.0179,YES
+M3,pooled,<90,network,primary,4,69,0.0580,0.0139,0.1176,41,0.0610,YES
+M1,pooled,<90,file_write,primary,1,8,0.1250,0.0224,0.4709,8,,YES
+M1p,pooled,<90,file_write,primary,2,22,0.0909,0.0000,0.2308,8,0.1389,YES
+M2,pooled,<90,file_write,primary,1,39,0.0256,0.0000,0.0789,28,0.0179,YES
+M3,pooled,<90,file_write,primary,6,69,0.0870,0.0286,0.1549,41,0.0854,YES
+M1,pooled,<90,credential,primary,2,8,0.2500,0.0715,0.5907,8,,YES
+M1p,pooled,<90,credential,primary,3,22,0.1364,0.0000,0.5000,8,0.2500,YES
+M2,pooled,<90,credential,primary,1,39,0.0256,0.0000,0.0789,28,0.0179,YES
+M3,pooled,<90,credential,primary,0,69,0.0000,0.0000,0.0000,41,0.0000,YES
+M1,pooled,<90,process,primary,6,8,0.7500,0.4093,0.9285,8,,YES
+M1p,pooled,<90,process,primary,19,22,0.8636,0.6000,0.9750,8,0.7188,YES
+M2,pooled,<90,process,primary,1,39,0.0256,0.0000,0.0789,28,0.0179,YES
+M3,pooled,<90,process,primary,1,69,0.0145,0.0000,0.0455,41,0.0122,YES
+M1,pooled,90-365,any,primary,5,8,0.6250,0.3057,0.8632,8,,YES
+M1p,pooled,90-365,any,primary,10,14,0.7143,0.3000,0.9524,8,0.6250,YES
+M2,pooled,90-365,any,primary,1,13,0.0769,0.0000,0.2500,12,0.0833,YES
+M3,pooled,90-365,any,primary,12,62,0.1935,0.0984,0.2951,40,0.1875,YES
+M1,pooled,90-365,network,primary,2,8,0.2500,0.0715,0.5907,8,,YES
+M1p,pooled,90-365,network,primary,4,14,0.2857,0.0556,0.5455,8,0.3125,YES
+M2,pooled,90-365,network,primary,0,13,0.0000,0.0000,0.0000,12,0.0000,YES
+M3,pooled,90-365,network,primary,2,62,0.0323,0.0000,0.0847,40,0.0500,YES
+M1,pooled,90-365,file_write,primary,1,8,0.1250,0.0224,0.4709,8,,YES
+M1p,pooled,90-365,file_write,primary,1,14,0.0714,0.0000,0.3000,8,0.1250,YES
+M2,pooled,90-365,file_write,primary,1,13,0.0769,0.0000,0.2500,12,0.0833,YES
+M3,pooled,90-365,file_write,primary,4,62,0.0645,0.0156,0.1290,40,0.0625,YES
+M1,pooled,90-365,credential,primary,2,8,0.2500,0.0715,0.5907,8,,YES
+M1p,pooled,90-365,credential,primary,6,14,0.4286,0.0909,0.7143,8,0.3125,YES
+M2,pooled,90-365,credential,primary,0,13,0.0000,0.0000,0.0000,12,0.0000,YES
+M3,pooled,90-365,credential,primary,5,62,0.0806,0.0172,0.1471,40,0.0625,YES
+M1,pooled,90-365,process,primary,5,8,0.6250,0.3057,0.8632,8,,YES
+M1p,pooled,90-365,process,primary,10,14,0.7143,0.3000,0.9524,8,0.6250,YES
+M2,pooled,90-365,process,primary,0,13,0.0000,0.0000,0.0000,12,0.0000,YES
+M3,pooled,90-365,process,primary,7,62,0.1129,0.0328,0.2034,40,0.1000,YES
+M1,pooled,>365,any,primary,3,3,1.0000,0.4385,1.0000,3,,NO (counts only)
+M1p,pooled,>365,any,primary,8,8,1.0000,1.0000,1.0000,3,1.0000,NO (counts only)
+M2,pooled,>365,any,primary,2,4,0.5000,0.0000,1.0000,3,0.5000,NO (counts only)
+M3,pooled,>365,any,primary,6,14,0.4286,0.2143,0.7143,14,0.4286,YES
+M1,pooled,>365,network,primary,2,3,0.6667,0.2077,0.9385,3,,NO (counts only)
+M1p,pooled,>365,network,primary,6,8,0.7500,0.0000,1.0000,3,0.6667,NO (counts only)
+M2,pooled,>365,network,primary,0,4,0.0000,0.0000,0.0000,3,0.0000,NO (counts only)
+M3,pooled,>365,network,primary,2,14,0.1429,0.0000,0.3571,14,0.1429,YES
+M1,pooled,>365,file_write,primary,1,3,0.3333,0.0615,0.7923,3,,NO (counts only)
+M1p,pooled,>365,file_write,primary,5,8,0.6250,0.0000,1.0000,3,0.3333,NO (counts only)
+M2,pooled,>365,file_write,primary,2,4,0.5000,0.0000,1.0000,3,0.5000,NO (counts only)
+M3,pooled,>365,file_write,primary,5,14,0.3571,0.1429,0.6429,14,0.3571,YES
+M1,pooled,>365,credential,primary,0,3,0.0000,0.0000,0.5615,3,,NO (counts only)
+M1p,pooled,>365,credential,primary,0,8,0.0000,0.0000,0.0000,3,0.0000,NO (counts only)
+M2,pooled,>365,credential,primary,0,4,0.0000,0.0000,0.0000,3,0.0000,NO (counts only)
+M3,pooled,>365,credential,primary,0,14,0.0000,0.0000,0.0000,14,0.0000,YES
+M1,pooled,>365,process,primary,3,3,1.0000,0.4385,1.0000,3,,NO (counts only)
+M1p,pooled,>365,process,primary,8,8,1.0000,1.0000,1.0000,3,1.0000,NO (counts only)
+M2,pooled,>365,process,primary,2,4,0.5000,0.0000,1.0000,3,0.5000,NO (counts only)
+M3,pooled,>365,process,primary,4,14,0.2857,0.0714,0.5714,14,0.2857,YES
+M1,npm,all,any,primary,6,8,0.7500,0.4093,0.9285,8,,YES
+M1p,npm,all,any,primary,31,34,0.9118,0.7273,1.0000,8,0.8125,YES
+M2,npm,all,any,primary,3,38,0.0789,0.0000,0.1714,25,0.0800,YES
+M3,npm,all,any,primary,19,82,0.2317,0.1446,0.3288,40,0.2838,YES
+M1,npm,all,network,primary,4,8,0.5000,0.2152,0.7848,8,,YES
+M1p,npm,all,network,primary,16,34,0.4706,0.1429,0.9048,8,0.5625,YES
+M2,npm,all,network,primary,1,38,0.0263,0.0000,0.0833,25,0.0200,YES
+M3,npm,all,network,primary,8,82,0.0976,0.0400,0.1618,40,0.1196,YES
+M1,npm,all,file_write,primary,1,8,0.1250,0.0224,0.4709,8,,YES
+M1p,npm,all,file_write,primary,8,34,0.2353,0.0000,0.6000,8,0.1375,YES
+M2,npm,all,file_write,primary,1,38,0.0263,0.0000,0.0882,25,0.0400,YES
+M3,npm,all,file_write,primary,12,82,0.1463,0.0800,0.2208,40,0.1779,YES
+M1,npm,all,credential,primary,0,8,0.0000,0.0000,0.3244,8,,YES
+M1p,npm,all,credential,primary,3,34,0.0882,0.0000,0.2632,8,0.1250,YES
+M2,npm,all,credential,primary,0,38,0.0000,0.0000,0.0000,25,0.0000,YES
+M3,npm,all,credential,primary,0,82,0.0000,0.0000,0.0000,40,0.0000,YES
+M1,npm,all,process,primary,6,8,0.7500,0.4093,0.9285,8,,YES
+M1p,npm,all,process,primary,31,34,0.9118,0.7273,1.0000,8,0.8125,YES
+M2,npm,all,process,primary,2,38,0.0526,0.0000,0.1351,25,0.0600,YES
+M3,npm,all,process,primary,4,82,0.0488,0.0115,0.1000,40,0.0800,YES
+M1_family,npm,all,any,primary,3,3,1.0000,0.4385,1.0000,3,,NO (counts only)
+M1_linked,npm,all,any,primary,2,2,1.0000,0.3424,1.0000,2,,NO (counts only)
+M1,npm,<90,any,primary,5,6,0.8333,0.4365,0.9699,6,,YES
+M1p,npm,<90,any,primary,18,19,0.9474,0.7000,1.0000,6,0.8333,YES
+M2,npm,<90,any,primary,2,28,0.0714,0.0000,0.1667,21,0.0476,YES
+M3,npm,<90,any,primary,9,43,0.2093,0.0930,0.3409,27,0.2037,YES
+M1,npm,<90,network,primary,3,6,0.5000,0.1876,0.8124,6,,YES
+M1p,npm,<90,network,primary,6,19,0.3158,0.0333,0.9167,6,0.5000,YES
+M2,npm,<90,network,primary,1,28,0.0357,0.0000,0.1071,21,0.0238,YES
+M3,npm,<90,network,primary,4,43,0.0930,0.0222,0.1819,27,0.0926,YES
+M1,npm,<90,file_write,primary,1,6,0.1667,0.0301,0.5635,6,,YES
+M1p,npm,<90,file_write,primary,2,19,0.1053,0.0000,0.3000,6,0.1852,YES
+M2,npm,<90,file_write,primary,0,28,0.0000,0.0000,0.0000,21,0.0000,YES
+M3,npm,<90,file_write,primary,5,43,0.1163,0.0250,0.2143,27,0.1111,YES
+M1,npm,<90,credential,primary,1,6,0.1667,0.0301,0.5635,6,,YES
+M1p,npm,<90,credential,primary,2,19,0.1053,0.0000,0.5000,6,0.1667,YES
+M2,npm,<90,credential,primary,0,28,0.0000,0.0000,0.0000,21,0.0000,YES
+M3,npm,<90,credential,primary,0,43,0.0000,0.0000,0.0000,27,0.0000,YES
+M1,npm,<90,process,primary,5,6,0.8333,0.4365,0.9699,6,,YES
+M1p,npm,<90,process,primary,18,19,0.9474,0.7000,1.0000,6,0.8333,YES
+M2,npm,<90,process,primary,1,28,0.0357,0.0000,0.1111,21,0.0238,YES
+M3,npm,<90,process,primary,0,43,0.0000,0.0000,0.0000,27,0.0000,YES
+M1,npm,90-365,any,primary,4,5,0.8000,0.3755,0.9638,5,,YES
+M1p,npm,90-365,any,primary,5,7,0.7143,0.2500,1.0000,5,0.8000,NO (counts only)
+M2,npm,90-365,any,primary,0,8,0.0000,0.0000,0.0000,8,0.0000,NO (counts only)
+M3,npm,90-365,any,primary,5,32,0.1562,0.0333,0.2903,24,0.1667,YES
+M1,npm,90-365,network,primary,3,5,0.6000,0.2307,0.8824,5,,YES
+M1p,npm,90-365,network,primary,4,7,0.5714,0.1250,1.0000,5,0.6000,NO (counts only)
+M2,npm,90-365,network,primary,0,8,0.0000,0.0000,0.0000,8,0.0000,NO (counts only)
+M3,npm,90-365,network,primary,2,32,0.0625,0.0000,0.1667,24,0.0833,YES
+M1,npm,90-365,file_write,primary,1,5,0.2000,0.0362,0.6245,5,,YES
+M1p,npm,90-365,file_write,primary,1,7,0.1429,0.0000,0.5000,5,0.2000,NO (counts only)
+M2,npm,90-365,file_write,primary,0,8,0.0000,0.0000,0.0000,8,0.0000,NO (counts only)
+M3,npm,90-365,file_write,primary,3,32,0.0938,0.0000,0.2000,24,0.0833,YES
+M1,npm,90-365,credential,primary,1,5,0.2000,0.0362,0.6245,5,,YES
+M1p,npm,90-365,credential,primary,1,7,0.1429,0.0000,0.5000,5,0.2000,NO (counts only)
+M2,npm,90-365,credential,primary,0,8,0.0000,0.0000,0.0000,8,0.0000,NO (counts only)
+M3,npm,90-365,credential,primary,0,32,0.0000,0.0000,0.0000,24,0.0000,YES
+M1,npm,90-365,process,primary,4,5,0.8000,0.3755,0.9638,5,,YES
+M1p,npm,90-365,process,primary,5,7,0.7143,0.2500,1.0000,5,0.8000,NO (counts only)
+M2,npm,90-365,process,primary,0,8,0.0000,0.0000,0.0000,8,0.0000,NO (counts only)
+M3,npm,90-365,process,primary,1,32,0.0312,0.0000,0.1034,24,0.0417,YES
+M1,npm,>365,any,primary,3,3,1.0000,0.4385,1.0000,3,,NO (counts only)
+M1p,npm,>365,any,primary,8,8,1.0000,1.0000,1.0000,3,1.0000,NO (counts only)
+M2,npm,>365,any,primary,1,2,0.5000,0.0000,1.0000,2,0.5000,NO (counts only)
+M3,npm,>365,any,primary,5,7,0.7143,0.4286,1.0000,7,0.7143,NO (counts only)
+M1,npm,>365,network,primary,2,3,0.6667,0.2077,0.9385,3,,NO (counts only)
+M1p,npm,>365,network,primary,6,8,0.7500,0.0000,1.0000,3,0.6667,NO (counts only)
+M2,npm,>365,network,primary,0,2,0.0000,0.0000,0.0000,2,0.0000,NO (counts only)
+M3,npm,>365,network,primary,2,7,0.2857,0.0000,0.5714,7,0.2857,NO (counts only)
+M1,npm,>365,file_write,primary,1,3,0.3333,0.0615,0.7923,3,,NO (counts only)
+M1p,npm,>365,file_write,primary,5,8,0.6250,0.0000,1.0000,3,0.3333,NO (counts only)
+M2,npm,>365,file_write,primary,1,2,0.5000,0.0000,1.0000,2,0.5000,NO (counts only)
+M3,npm,>365,file_write,primary,4,7,0.5714,0.1429,0.8571,7,0.5714,NO (counts only)
+M1,npm,>365,credential,primary,0,3,0.0000,0.0000,0.5615,3,,NO (counts only)
+M1p,npm,>365,credential,primary,0,8,0.0000,0.0000,0.0000,3,0.0000,NO (counts only)
+M2,npm,>365,credential,primary,0,2,0.0000,0.0000,0.0000,2,0.0000,NO (counts only)
+M3,npm,>365,credential,primary,0,7,0.0000,0.0000,0.0000,7,0.0000,NO (counts only)
+M1,npm,>365,process,primary,3,3,1.0000,0.4385,1.0000,3,,NO (counts only)
+M1p,npm,>365,process,primary,8,8,1.0000,1.0000,1.0000,3,1.0000,NO (counts only)
+M2,npm,>365,process,primary,1,2,0.5000,0.0000,1.0000,2,0.5000,NO (counts only)
+M3,npm,>365,process,primary,3,7,0.4286,0.1429,0.8571,7,0.4286,NO (counts only)
+M1,pypi,all,any,primary,2,6,0.3333,0.0968,0.7000,6,,YES
+M1p,pypi,all,any,primary,6,10,0.6000,0.0000,0.8571,6,0.3333,YES
+M2,pypi,all,any,primary,4,18,0.2222,0.0000,0.4444,9,0.2222,YES
+M3,pypi,all,any,primary,10,63,0.1587,0.0877,0.2344,17,0.1510,YES
+M1,pypi,all,network,primary,0,6,0.0000,0.0000,0.3903,6,,YES
+M1p,pypi,all,network,primary,0,10,0.0000,0.0000,0.0000,6,0.0000,YES
+M2,pypi,all,network,primary,0,18,0.0000,0.0000,0.0000,9,0.0000,YES
+M3,pypi,all,network,primary,0,63,0.0000,0.0000,0.0000,17,0.0000,YES
+M1,pypi,all,file_write,primary,0,6,0.0000,0.0000,0.3903,6,,YES
+M1p,pypi,all,file_write,primary,0,10,0.0000,0.0000,0.0000,6,0.0000,YES
+M2,pypi,all,file_write,primary,3,18,0.1667,0.0000,0.3333,9,0.1667,YES
+M3,pypi,all,file_write,primary,3,63,0.0476,0.0000,0.0952,17,0.0382,YES
+M1,pypi,all,credential,primary,2,6,0.3333,0.0968,0.7000,6,,YES
+M1p,pypi,all,credential,primary,6,10,0.6000,0.0000,0.8571,6,0.3333,YES
+M2,pypi,all,credential,primary,1,18,0.0556,0.0000,0.1667,9,0.0556,YES
+M3,pypi,all,credential,primary,5,63,0.0794,0.0286,0.1429,17,0.0833,YES
+M1,pypi,all,process,primary,2,6,0.3333,0.0968,0.7000,6,,YES
+M1p,pypi,all,process,primary,6,10,0.6000,0.0000,0.8571,6,0.3333,YES
+M2,pypi,all,process,primary,1,18,0.0556,0.0000,0.1667,9,0.0556,YES
+M3,pypi,all,process,primary,8,63,0.1270,0.0526,0.2090,17,0.1245,YES
+M1_family,pypi,all,any,primary,1,4,0.2500,0.0456,0.6994,4,,NO (counts only)
+M1_linked,pypi,all,any,primary,1,4,0.2500,0.0456,0.6994,4,,NO (counts only)
+M1,pypi,<90,any,primary,1,3,0.3333,0.0615,0.7923,3,,NO (counts only)
+M1p,pypi,<90,any,primary,1,3,0.3333,0.0000,1.0000,3,0.3333,NO (counts only)
+M2,pypi,<90,any,primary,2,11,0.1818,0.0000,0.5455,7,0.1429,YES
+M3,pypi,<90,any,primary,2,26,0.0769,0.0000,0.1923,14,0.0714,YES
+M1,pypi,<90,network,primary,0,3,0.0000,0.0000,0.5615,3,,NO (counts only)
+M1p,pypi,<90,network,primary,0,3,0.0000,0.0000,0.0000,3,0.0000,NO (counts only)
+M2,pypi,<90,network,primary,0,11,0.0000,0.0000,0.0000,7,0.0000,YES
+M3,pypi,<90,network,primary,0,26,0.0000,0.0000,0.0000,14,0.0000,YES
+M1,pypi,<90,file_write,primary,0,3,0.0000,0.0000,0.5615,3,,NO (counts only)
+M1p,pypi,<90,file_write,primary,0,3,0.0000,0.0000,0.0000,3,0.0000,NO (counts only)
+M2,pypi,<90,file_write,primary,1,11,0.0909,0.0000,0.2727,7,0.0714,YES
+M3,pypi,<90,file_write,primary,1,26,0.0385,0.0000,0.1200,14,0.0357,YES
+M1,pypi,<90,credential,primary,1,3,0.3333,0.0615,0.7923,3,,NO (counts only)
+M1p,pypi,<90,credential,primary,1,3,0.3333,0.0000,1.0000,3,0.3333,NO (counts only)
+M2,pypi,<90,credential,primary,1,11,0.0909,0.0000,0.2727,7,0.0714,YES
+M3,pypi,<90,credential,primary,0,26,0.0000,0.0000,0.0000,14,0.0000,YES
+M1,pypi,<90,process,primary,1,3,0.3333,0.0615,0.7923,3,,NO (counts only)
+M1p,pypi,<90,process,primary,1,3,0.3333,0.0000,1.0000,3,0.3333,NO (counts only)
+M2,pypi,<90,process,primary,0,11,0.0000,0.0000,0.0000,7,0.0000,YES
+M3,pypi,<90,process,primary,1,26,0.0385,0.0000,0.1200,14,0.0357,YES
+M1,pypi,90-365,any,primary,2,4,0.5000,0.1500,0.8500,4,,NO (counts only)
+M1p,pypi,90-365,any,primary,5,7,0.7143,0.0000,1.0000,4,0.5000,NO (counts only)
+M2,pypi,90-365,any,primary,1,5,0.2000,0.0000,0.7500,4,0.2500,NO (counts only)
+M3,pypi,90-365,any,primary,7,30,0.2333,0.0968,0.4000,16,0.2188,YES
+M1,pypi,90-365,network,primary,0,4,0.0000,0.0000,0.4899,4,,NO (counts only)
+M1p,pypi,90-365,network,primary,0,7,0.0000,0.0000,0.0000,4,0.0000,NO (counts only)
+M2,pypi,90-365,network,primary,0,5,0.0000,0.0000,0.0000,4,0.0000,NO (counts only)
+M3,pypi,90-365,network,primary,0,30,0.0000,0.0000,0.0000,16,0.0000,YES
+M1,pypi,90-365,file_write,primary,0,4,0.0000,0.0000,0.4899,4,,NO (counts only)
+M1p,pypi,90-365,file_write,primary,0,7,0.0000,0.0000,0.0000,4,0.0000,NO (counts only)
+M2,pypi,90-365,file_write,primary,1,5,0.2000,0.0000,0.7500,4,0.2500,NO (counts only)
+M3,pypi,90-365,file_write,primary,1,30,0.0333,0.0000,0.1034,16,0.0312,YES
+M1,pypi,90-365,credential,primary,2,4,0.5000,0.1500,0.8500,4,,NO (counts only)
+M1p,pypi,90-365,credential,primary,5,7,0.7143,0.0000,1.0000,4,0.5000,NO (counts only)
+M2,pypi,90-365,credential,primary,0,5,0.0000,0.0000,0.0000,4,0.0000,NO (counts only)
+M3,pypi,90-365,credential,primary,5,30,0.1667,0.0645,0.2903,16,0.1562,YES
+M1,pypi,90-365,process,primary,2,4,0.5000,0.1500,0.8500,4,,NO (counts only)
+M1p,pypi,90-365,process,primary,5,7,0.7143,0.0000,1.0000,4,0.5000,NO (counts only)
+M2,pypi,90-365,process,primary,0,5,0.0000,0.0000,0.0000,4,0.0000,NO (counts only)
+M3,pypi,90-365,process,primary,6,30,0.2000,0.0645,0.3667,16,0.1875,YES
+M1,pypi,>365,any,primary,0,0,,,,0,,NO (counts only)
+M1p,pypi,>365,any,primary,0,0,,,,0,,NO (counts only)
+M2,pypi,>365,any,primary,1,2,0.5000,0.5000,0.5000,1,0.5000,NO (counts only)
+M3,pypi,>365,any,primary,1,7,0.1429,0.0000,0.4286,7,0.1429,NO (counts only)
+M1,pypi,>365,network,primary,0,0,,,,0,,NO (counts only)
+M1p,pypi,>365,network,primary,0,0,,,,0,,NO (counts only)
+M2,pypi,>365,network,primary,0,2,0.0000,0.0000,0.0000,1,0.0000,NO (counts only)
+M3,pypi,>365,network,primary,0,7,0.0000,0.0000,0.0000,7,0.0000,NO (counts only)
+M1,pypi,>365,file_write,primary,0,0,,,,0,,NO (counts only)
+M1p,pypi,>365,file_write,primary,0,0,,,,0,,NO (counts only)
+M2,pypi,>365,file_write,primary,1,2,0.5000,0.5000,0.5000,1,0.5000,NO (counts only)
+M3,pypi,>365,file_write,primary,1,7,0.1429,0.0000,0.4286,7,0.1429,NO (counts only)
+M1,pypi,>365,credential,primary,0,0,,,,0,,NO (counts only)
+M1p,pypi,>365,credential,primary,0,0,,,,0,,NO (counts only)
+M2,pypi,>365,credential,primary,0,2,0.0000,0.0000,0.0000,1,0.0000,NO (counts only)
+M3,pypi,>365,credential,primary,0,7,0.0000,0.0000,0.0000,7,0.0000,NO (counts only)
+M1,pypi,>365,process,primary,0,0,,,,0,,NO (counts only)
+M1p,pypi,>365,process,primary,0,0,,,,0,,NO (counts only)
+M2,pypi,>365,process,primary,1,2,0.5000,0.5000,0.5000,1,0.5000,NO (counts only)
+M3,pypi,>365,process,primary,1,7,0.1429,0.0000,0.4286,7,0.1429,NO (counts only)
+M1,pooled,all,any,post2024,7,12,0.5833,0.3195,0.8067,12,,YES
+M1p,pooled,all,any,post2024,34,41,0.8293,0.6207,0.9423,12,0.6042,YES
+M2,pooled,all,any,post2024,5,51,0.0980,0.0196,0.2000,31,0.0806,YES
+M1,pooled,<90,any,post2024,6,8,0.7500,0.4093,0.9285,8,,YES
+M1p,pooled,<90,any,post2024,19,22,0.8636,0.6000,0.9750,8,0.7188,YES
+M2,pooled,<90,any,post2024,4,38,0.1053,0.0000,0.2308,27,0.0741,YES
+M1,pooled,90-365,any,post2024,5,8,0.6250,0.3057,0.8632,8,,YES
+M1p,pooled,90-365,any,post2024,10,14,0.7143,0.3000,0.9524,8,0.6250,YES
+M2,pooled,90-365,any,post2024,1,13,0.0769,0.0000,0.2500,12,0.0833,YES
+M1,pooled,>365,any,post2024,3,3,1.0000,0.4385,1.0000,3,,NO (counts only)
+M1p,pooled,>365,any,post2024,5,5,1.0000,1.0000,1.0000,3,1.0000,NO (counts only)
+M2,pooled,>365,any,post2024,0,0,,,,0,,NO (counts only)
+M1,npm,all,any,post2024,6,8,0.7500,0.4093,0.9285,8,,YES
+M1p,npm,all,any,post2024,28,31,0.9032,0.7143,1.0000,8,0.8125,YES
+M2,npm,all,any,post2024,2,35,0.0571,0.0000,0.1389,23,0.0435,YES
+M1,npm,<90,any,post2024,5,6,0.8333,0.4365,0.9699,6,,YES
+M1p,npm,<90,any,post2024,18,19,0.9474,0.7000,1.0000,6,0.8333,YES
+M2,npm,<90,any,post2024,2,27,0.0741,0.0000,0.1724,20,0.0500,YES
+M1,npm,90-365,any,post2024,4,5,0.8000,0.3755,0.9638,5,,YES
+M1p,npm,90-365,any,post2024,5,7,0.7143,0.2500,1.0000,5,0.8000,NO (counts only)
+M2,npm,90-365,any,post2024,0,8,0.0000,0.0000,0.0000,8,0.0000,NO (counts only)
+M1,npm,>365,any,post2024,3,3,1.0000,0.4385,1.0000,3,,NO (counts only)
+M1p,npm,>365,any,post2024,5,5,1.0000,1.0000,1.0000,3,1.0000,NO (counts only)
+M2,npm,>365,any,post2024,0,0,,,,0,,NO (counts only)
+M1,pypi,all,any,post2024,2,6,0.3333,0.0968,0.7000,6,,YES
+M1p,pypi,all,any,post2024,6,10,0.6000,0.0000,0.8571,6,0.3333,YES
+M2,pypi,all,any,post2024,3,16,0.1875,0.0000,0.4375,8,0.1875,YES
+M1,pypi,<90,any,post2024,1,3,0.3333,0.0615,0.7923,3,,NO (counts only)
+M1p,pypi,<90,any,post2024,1,3,0.3333,0.0000,1.0000,3,0.3333,NO (counts only)
+M2,pypi,<90,any,post2024,2,11,0.1818,0.0000,0.5455,7,0.1429,YES
+M1,pypi,90-365,any,post2024,2,4,0.5000,0.1500,0.8500,4,,NO (counts only)
+M1p,pypi,90-365,any,post2024,5,7,0.7143,0.0000,1.0000,4,0.5000,NO (counts only)
+M2,pypi,90-365,any,post2024,1,5,0.2000,0.0000,0.7500,4,0.2500,NO (counts only)
+M1,pypi,>365,any,post2024,0,0,,,,0,,NO (counts only)
+M1p,pypi,>365,any,post2024,0,0,,,,0,,NO (counts only)
+M2,pypi,>365,any,post2024,0,0,,,,0,,NO (counts only)
