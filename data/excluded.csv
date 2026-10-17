@@ -1,0 +1,1418 @@
+ecosystem,package,tier,stage,reason
+npm,8q,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@0l00000l/auth,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@7nohe/openapi-react-query-codegen,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@accordproject/markdown-cli,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@activepieces/piece-base44,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@activepieces/piece-google-contacts,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@activepieces/piece-google-forms,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@arbocollab/arbo-web-people,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@atom8n/inspector,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@axinom/mosaic-cli,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@bcrumbs.net/bc-chat,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@bitwarden/cli,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@builder.io/dev-tools,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@c8o/nimbus-core,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@dm3-org/dm3-lib-shared,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@ebay/ui-core-react,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@eventcatalog/generator-asyncapi,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@flowfuse/flowfuse,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@gluestack-ui/utils,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@immobiliarelabs/backstage-plugin-gitlab,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@immobiliarelabs/backstage-plugin-gitlab-backend,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@immobiliarelabs/backstage-plugin-ldap-auth,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@immobiliarelabs/backstage-plugin-ldap-auth-backend,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@injectivelabs/sdk-ts,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@joyfill/components,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@joyfill/layouts,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/bigmap,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/compress-brotli,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/compress-gzip,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/dynamo,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/etcd,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/memcache,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/mongo,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/mysql,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/postgres,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/redis,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/sqlite,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/test-suite,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@keyv/valkey,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@kong/spec-renderer,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@kyungseopk1m/holidays-kr,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@lambda-platform/lambda-vue,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@lottiefiles/lottie-player,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/agent-builder,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/ai-sdk,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/arize,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/auth,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/auth-auth0,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/auth-better-auth,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/auth-clerk,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/auth-supabase,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/auth-workos,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/braintrust,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/chroma,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/claude,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/clickhouse,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/client-js,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/cloudflare,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/cloudflare-d1,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/convex,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/core,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/couchbase,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/deployer,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/deployer-cloudflare,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/deployer-netlify,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/deployer-vercel,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/duckdb,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/dynamodb,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/evals,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/fastembed,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/google-cloud-pubsub,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/inngest,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/langfuse,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/langsmith,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/libsql,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/loggers,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/longmemeval,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/mcp,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/mcp-docs-server,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/mcp-registry-registry,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/mem0,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/memory,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/mongodb,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/mssql,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/node-audio,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/observability,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/otel-exporter,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/pg,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/pinecone,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/playground-ui,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/qdrant,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/rag,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/react,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/s3vectors,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/schema-compat,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/server,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/turbopuffer,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/upstash,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/vectorize,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/voice-deepgram,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/voice-elevenlabs,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/voice-google,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/voice-google-gemini-live,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/voice-openai,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/voice-openai-realtime,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@mastra/voice-playai,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@medusajs/analytics-posthog,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@medusajs/medusa,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@medusajs/medusa-oas-cli,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@nutui/nutui-react-taro,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@onerjs/addons,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@onerjs/inspector,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@onerjs/procedural-textures,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@onerjs/serializers,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@onerjs/smart-filters,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@onerjs/smart-filters-blocks,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@opentermsarchive/engine,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@pisell/pisellos,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@pkgr/core,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@puppeteer/browsers,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/button,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/checkbox,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/combobox,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/disclosure,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/focus,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/interactions,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/listbox,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/menu,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/overlays,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/radio,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/slider,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/switch,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/tabs,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/toggle,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@react-native-aria/utils,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@rspack-debug/core,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@rxap/ngx-bootstrap,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@subql/common,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@tarojs/cli,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@testrelic/playwright-analytics,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/davinci-cloudflare-requests-handler,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/davinci-graphql-codegen-extensions,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/davinci-monorepo,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-accordion,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-alert,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-button,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-calendar,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-charts,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-container,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-dropdown,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-dropzone,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-form,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-forms,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-grid,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-icons,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-image,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-lab,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-link,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-logo,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-paper,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-popper,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-provider,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-quote,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-radio,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-rich-text-editor,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-select,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-shared,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-slider,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-switch,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-tailwind,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-typography,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@toptal/picasso-utils,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@velliajs/discord,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@velora-dex/sdk,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,@xene/core,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,admin-panel,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,agentgui,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,agenthub-multiagent-mcp,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,alemmi,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,angular-bmap,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,angular-material-sidenav-rnd,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,another-date-picker,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,another-date-range-picker,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,astro,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,axios,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,bootstrapper,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,bvm-core,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,cash-register,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,cdk-insights,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,coa,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,common-frontend-components,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,communication,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,cordova-plugin-china-picker,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,create-mastra,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,dossier,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,edge,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,eslint-config-airbnb-standard,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,eslint-config-prettier,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,eslint-plugin-prettier,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,etherproxy-lite,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,event-stream,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,fa-mcp-sdk,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,fetch-page-assets,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,finup-mongo-library,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,format-date,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,fsbrowse,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,got-fetch,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,gulp-jscrambler,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,hexo-shoka-swiper,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,hls.js,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,html-to-gutenberg,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,impala,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,inmaa-map,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,inventory,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,invoices,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,ionic-insta-api-wrapper,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,is,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,itsa-react-focuscontainer,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,itsa-react-maskedinput,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,jagproject,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,jscrambler-metro-plugin,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,json-serializer,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,lhisp-logger,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,load-from-cwd-or-npm,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,lumberjack,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,mastra,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,motiv.scss,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,n8n-nodes-social-facebook,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,new-native-tools-linux-x64-gnu,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,ng-ui-library,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,nginxbeautifier,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,opentiny-react,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,pornhub,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,products,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,proto-bin,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,puppeteer,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,puppeteer-core,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,pxnpm,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,qaq-core-util-v2,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,raise-common-lib,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,rate-map,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,rc,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,react,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,react-hook-form,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,react-native-country-select,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,react-native-international-phone-number,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,react-router-dom,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,receipts,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,revine,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,routes,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,seedcode-facturacion-electronica,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,settings,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,shell,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,spoint,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,stretchshop,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,synckit,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,tango-app-api-trax,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,tangram,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,tanstack,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,xrpl,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,yakuza0,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+npm,zemen,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,always-updates,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,apilogicserver,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,cdktn-provider-azurerm,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,elementary-data,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,fastapi,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,guan,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,massive,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,morin,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,notebook-intelligence,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,noteparse,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,nvidia-nat-semantic-kernel,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,qontract-reconcile,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,saas-common-lib-473815,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,semantic-router,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,strawberry-graphql,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,txdpy,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,xinference,,classification,UNCLEAR: no malware advisory explicitly describes an unauthorised release
+pypi,cmd2func,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 5 records for other versions)
+pypi,ctx,B,established,not established on re-check (REGISTRY_404); previous versions cannot be determined
+pypi,lightning,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 62 records for other versions)
+pypi,memoryos,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 32 records for other versions)
+pypi,mrmustard,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+pypi,phenopacket-store-toolkit,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 6 records for other versions)
+pypi,pytorch-lightning,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 14 records for other versions)
+pypi,spateo-release,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+pypi,ultralytics,A,record,UNAVAILABLE: no record for any malicious version (6 malicious versions; 219 records for other versions)
+npm,02-echo,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@accordproject/concerto-analysis,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 147 records for other versions)
+npm,@accordproject/concerto-metamodel,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 118 records for other versions)
+npm,@accordproject/concerto-types,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 149 records for other versions)
+npm,@accordproject/markdown-it-cicero,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@accordproject/template-engine,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 15 records for other versions)
+npm,@actbase/css-to-react-native-transform,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@actbase/native,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 20 records for other versions)
+npm,@actbase/node-server,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 108 records for other versions)
+npm,@actbase/react-absolute,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@actbase/react-daum-postcode,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@actbase/react-kakaosdk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,@actbase/react-native-devtools,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@actbase/react-native-kakao-navi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@actbase/react-native-less-transformer,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@actbase/react-native-simple-video,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,@actbase/react-native-tiktok,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@ahmedhfarag/ngx-perfect-scrollbar,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 6 records for other versions)
+npm,@alexadark/amadeus-api,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@alexadark/reusable-functions,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@antstackio/express-graphql-proxy,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antstackio/json-to-graphql,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/adjust,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/algorithm,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/async-hook,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/attr,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/ava,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/ava-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/awards,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/calendar-heatmap,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/chart-node-g6,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/ckb,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/color-schema,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/color-util,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/component,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 165 records for other versions)
+npm,@antv/d3-interpolate,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/data-set,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/data-wizard,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/dipper-component,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/dom-util,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/dumi-theme-antv,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/dw-analyzer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/dw-random,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/dw-transform,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/event-emitter,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 1 records for other versions)
+npm,@antv/expr,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/f-engine,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/f-lottie,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 35 records for other versions)
+npm,@antv/f-my,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 34 records for other versions)
+npm,@antv/f-react,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 35 records for other versions)
+npm,@antv/f-test-utils,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 5 records for other versions)
+npm,@antv/f-vue,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 31 records for other versions)
+npm,@antv/f-wx,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 30 records for other versions)
+npm,@antv/f2,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/f2-algorithm,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 13 records for other versions)
+npm,@antv/f2-canvas,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/f2-graphic,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/f2-my,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 23 records for other versions)
+npm,@antv/f2-react,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 64 records for other versions)
+npm,@antv/f2-site,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 8 records for other versions)
+npm,@antv/f2-vue,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 13 records for other versions)
+npm,@antv/f2-wordcloud,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 33 records for other versions)
+npm,@antv/f2-wx,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 23 records for other versions)
+npm,@antv/f6-alipay,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 1 records for other versions)
+npm,@antv/f6-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/f6-ui,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/f6-wx,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 1 records for other versions)
+npm,@antv/g-base,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-camera-api,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-canvas,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 100 records for other versions)
+npm,@antv/g-canvaskit,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 77 records for other versions)
+npm,@antv/g-compat,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 3 records for other versions)
+npm,@antv/g-components,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 60 records for other versions)
+npm,@antv/g-css-layout-api,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-css-typed-om-api,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 6 records for other versions)
+npm,@antv/g-device-api,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-dom-mutation-observer-api,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 42 records for other versions)
+npm,@antv/g-gesture,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 62 records for other versions)
+npm,@antv/g-image-exporter,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-layout-blocklike,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 12 records for other versions)
+npm,@antv/g-mobile,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 6 records for other versions)
+npm,@antv/g-mobile-canvas-element,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 47 records for other versions)
+npm,@antv/g-mobile-svg,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 81 records for other versions)
+npm,@antv/g-pattern,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-plugin-a11y,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 58 records for other versions)
+npm,@antv/g-plugin-annotation,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 61 records for other versions)
+npm,@antv/g-plugin-box2d,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 62 records for other versions)
+npm,@antv/g-plugin-canvas-path-generator,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-plugin-canvas-picker,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-plugin-canvas-renderer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-plugin-canvaskit-renderer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-plugin-control,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 65 records for other versions)
+npm,@antv/g-plugin-css-select,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 65 records for other versions)
+npm,@antv/g-plugin-dom-interaction,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 66 records for other versions)
+npm,@antv/g-plugin-dragndrop,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 63 records for other versions)
+npm,@antv/g-plugin-gesture,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 40 records for other versions)
+npm,@antv/g-plugin-gpgpu,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 26 records for other versions)
+npm,@antv/g-plugin-html-renderer,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 71 records for other versions)
+npm,@antv/g-plugin-image-loader,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 62 records for other versions)
+npm,@antv/g-plugin-mobile-interaction,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 61 records for other versions)
+npm,@antv/g-plugin-physx,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 67 records for other versions)
+npm,@antv/g-plugin-svg-picker,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 63 records for other versions)
+npm,@antv/g-plugin-svg-renderer,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 78 records for other versions)
+npm,@antv/g-plugin-webgl-device,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 27 records for other versions)
+npm,@antv/g-plugin-webgl-renderer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-plugin-webgpu-device,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-plugin-zdog-canvas-renderer,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 50 records for other versions)
+npm,@antv/g-plugin-zdog-svg-renderer,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 50 records for other versions)
+npm,@antv/g-shader-components,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 34 records for other versions)
+npm,@antv/g-svg,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 86 records for other versions)
+npm,@antv/g-web-animations-api,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-webgpu-compiler,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-webgpu-core,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-webgpu-engine,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 1 records for other versions)
+npm,@antv/g-webgpu-raytracer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g-webgpu-unitchart,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g2-extension-3d,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g2-extension-ava,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 2 records for other versions)
+npm,@antv/g2-plugin-slider,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g2-ssr,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 5 records for other versions)
+npm,@antv/g2plot,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g2plot-schemas,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g6,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 67 records for other versions)
+npm,@antv/g6-cli,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g6-editor,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g6-element,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g6-extension-3d,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g6-extension-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g6-mobile,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g6-pc,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g6-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/g6-plugins,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/g6-ssr,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/geo-coord,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/gi-assets-advance,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/gi-assets-algorithm,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/gi-assets-galaxybase,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/gi-assets-scene,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/gi-assets-xlab,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/gi-common-components,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/gi-mock-data,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 1 records for other versions)
+npm,@antv/gi-sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/gi-sdk-app,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 9 records for other versions)
+npm,@antv/gi-theme-antd,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/github-config-cli,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 1 records for other versions)
+npm,@antv/graphin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/graphlib,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 7 records for other versions)
+npm,@antv/hierarchy,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/insight-component,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/interaction,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/knowledge,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-component,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-composite-layers,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-core,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-district,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/l7-draw,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-editor,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-layers,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-leaflet,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-map,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-maps,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-mini,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 100 records for other versions)
+npm,@antv/l7-renderer,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 121 records for other versions)
+npm,@antv/l7-scene,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 122 records for other versions)
+npm,@antv/l7-source,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-three,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7plot,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/l7plot-component,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/larkmap,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/li-aiearth-assets,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/li-editor,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/li-p2,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/li-sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/lite-insight,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/matrix-util,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/my-f2,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/narrative-text-schema,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 4 records for other versions)
+npm,@antv/react-g,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 98 records for other versions)
+npm,@antv/s2,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 100 records for other versions)
+npm,@antv/s2-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/s2-vue,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/scale,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/semantic-release-pnpm,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 3 records for other versions)
+npm,@antv/smart-color,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/t8,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/thumbnails,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/torch,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/util,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/vendor,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/vis-predict-engine,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/word-scale-chart,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 2 records for other versions)
+npm,@antv/wx-f2,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/x6-common,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-components,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-geometry,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-plugin-clipboard,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-plugin-dnd,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-plugin-export,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 5 records for other versions)
+npm,@antv/x6-plugin-minimap,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-plugin-scroller,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-plugin-selection,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-plugin-snapline,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-plugin-stencil,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-plugin-transform,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 5 records for other versions)
+npm,@antv/x6-react,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@antv/x6-react-components,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-react-shape,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-vector,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/x6-vue-shape,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/xflow,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@antv/xflow-hook,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@art-ws/common,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@art-ws/db-context,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@art-ws/di,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@art-ws/eslint,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@art-ws/slf,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@art-ws/ssl-info,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 4 records for other versions)
+npm,@arv-bedrock/auth-sso-backend,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@arv-bedrock/logger,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@aryanhussain/my-angular-lib,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/avro-schema-parser,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/bundler,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/cli,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/converter,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/generator-react-sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/go-watermill-template,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/java-spring-cloud-stream-template,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/java-template,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/markdown-template,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/modelina,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/modelina-cli,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/nodejs-template,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/nodejs-ws-template,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/openapi-schema-parser,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/optimizer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/python-paho-template,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/react-component,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/studio,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@asyncapi/web-component,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@browserbasehq/mcp-server-browserbase,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@browserbasehq/stagehand,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 321 records for other versions)
+npm,@cacheable/net,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@cap-js/db-service,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 21 records for other versions)
+npm,@cap-js/openapi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,@cap-js/postgres,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 12 records for other versions)
+npm,@cap-js/sqlite,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 17 records for other versions)
+npm,@clausehq/flows-step-httprequest,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@clausehq/flows-step-jsontoxml,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@clausehq/flows-step-mqtt,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@clausehq/flows-step-sendgridemail,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@clausehq/flows-step-taskscreateurl,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@commute/bloom,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@commute/market-data-chartjs,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@contaazul/n8n-nodes-contaazul,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,@coveops/abi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 20 records for other versions)
+npm,@crowdstrike/commitlint,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@crowdstrike/falcon-shoelace,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@crowdstrike/glide-core,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 27 records for other versions)
+npm,@crowdstrike/tailwind-toucan-base,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ctrl/deluge,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 8 records for other versions)
+npm,@ctrl/golang-template,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 2 records for other versions)
+npm,@ctrl/magnet-link,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 5 records for other versions)
+npm,@ctrl/ngx-codemirror,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 2 records for other versions)
+npm,@ctrl/ngx-csv,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 1 records for other versions)
+npm,@ctrl/ngx-emoji-mart,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 4 records for other versions)
+npm,@ctrl/ngx-rightclick,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@ctrl/qbittorrent,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 26 records for other versions)
+npm,@ctrl/react-adsense,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 2 records for other versions)
+npm,@ctrl/shared-torrent,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 15 records for other versions)
+npm,@ctrl/tinycolor,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 5 records for other versions)
+npm,@ctrl/torrent-file,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 4 records for other versions)
+npm,@ctrl/transmission,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,@ctrl/ts-base32,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 6 records for other versions)
+npm,@deliveroo/reevent,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@dev-blinq/ai-qa-logic,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@dev-blinq/cucumber-js,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 135 records for other versions)
+npm,@dev-blinq/cucumber_client,A,record,UNAVAILABLE: no record for any malicious version (7 malicious versions; 807 records for other versions)
+npm,@dev-blinq/ui-systems,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 32 records for other versions)
+npm,@draftlab/db,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@duckdb/duckdb-wasm,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 91 records for other versions)
+npm,@emilgroup/account-sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/account-sdk-node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/billing-sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/billing-sdk-node,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 110 records for other versions)
+npm,@emilgroup/claim-sdk,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 82 records for other versions)
+npm,@emilgroup/claim-sdk-node,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 75 records for other versions)
+npm,@emilgroup/customer-sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/discount-sdk-node,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 11 records for other versions)
+npm,@emilgroup/document-uploader,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/docxtemplater-util,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/insurance-sdk-node,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 157 records for other versions)
+npm,@emilgroup/notification-sdk-node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/partner-sdk-node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/payment-sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/payment-sdk-node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/public-api-sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@emilgroup/public-api-sdk-node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/address-encoder,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/ccip-read-worker-viem,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/content-hash,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/dnsprovejs,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/dnssecoraclejs,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/ens-avatar,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/ensjs-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/eth-ens-namehash,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/hackathon-registrar,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/hardhat-chai-matchers-viem,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/hardhat-toolbox-viem-extended,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/react-ens-address,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/renewal,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/renewal-widget,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/solsha1,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/subdomain-registrar,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/test-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/thorin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/ui,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ensdomains/web3modal,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ethlete/cdk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 101 records for other versions)
+npm,@ethlete/cli,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,@ethlete/components,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 62 records for other versions)
+npm,@ethlete/contentful,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 21 records for other versions)
+npm,@ethlete/core,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 79 records for other versions)
+npm,@ethlete/dsp,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@ethlete/query,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 87 records for other versions)
+npm,@ethlete/theming,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 12 records for other versions)
+npm,@ethlete/types,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 21 records for other versions)
+npm,@everreal/web-analytics,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@hapheus/n8n-nodes-pgp,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@hover-design/react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ifings/design-system,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ifings/metatron3,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@kvytech/cli,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@kvytech/medusa-plugin-announcement,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@kvytech/medusa-plugin-management,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@kvytech/medusa-plugin-product-reviews,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@leafnoise/mirage,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@lessondesk/api-client,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@lessondesk/material-icons,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@lessondesk/react-table-context,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@lessondesk/schoolbus,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@lint-md/cli,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@livecms/live-edit,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,@livecms/nuxt-live-edit,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,@louisle2/cortex-js,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@lui-ui/lui-nuxt,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@lui-ui/lui-tailwindcss,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,@lui-ui/lui-vue,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 59 records for other versions)
+npm,@memtensor/memos-cloud-openclaw-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@micado-digital/stadtmarketing-kufstein-external,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@mistralai/mistralai-azure,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 5 records for other versions)
+npm,@mistralai/mistralai-gcp,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 6 records for other versions)
+npm,@nativescript-community/arraybuffers,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nativescript-community/sqlite,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 5 records for other versions)
+npm,@nativescript-community/ui-collectionview,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nativescript-community/ui-drawer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nativescript-community/ui-label,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 24 records for other versions)
+npm,@nativescript-community/ui-material-bottom-navigation,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 56 records for other versions)
+npm,@nativescript-community/ui-material-bottomsheet,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nativescript-community/ui-material-core,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nativescript-community/ui-material-core-tabs,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nativescript-community/ui-material-ripple,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nativescript-community/ui-material-tabs,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nativescript-community/ui-pager,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 19 records for other versions)
+npm,@nativescript-community/ui-pulltorefresh,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nebula.js/cli,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 47 records for other versions)
+npm,@nebula.js/cli-build,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 104 records for other versions)
+npm,@nebula.js/cli-sense,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 52 records for other versions)
+npm,@nebula.js/cli-serve,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 39 records for other versions)
+npm,@nebula.js/locale,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@nebula.js/nucleus,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@nebula.js/sn-action-button,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 30 records for other versions)
+npm,@nebula.js/sn-animator,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@nebula.js/sn-distributionplot,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 16 records for other versions)
+npm,@nebula.js/sn-layout-container,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 26 records for other versions)
+npm,@nebula.js/sn-line-chart,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 43 records for other versions)
+npm,@nebula.js/sn-listbox,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 17 records for other versions)
+npm,@nebula.js/sn-map,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 6 records for other versions)
+npm,@nebula.js/sn-nav-menu,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 12 records for other versions)
+npm,@nebula.js/sn-org-chart,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 28 records for other versions)
+npm,@nebula.js/sn-shape,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,@nebula.js/sn-slider,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 10 records for other versions)
+npm,@nebula.js/sn-tabbed-container,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,@nebula.js/snapshooter,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@nebula.js/stardust,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 53 records for other versions)
+npm,@nebula.js/test-utils,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@nebula.js/theme,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@nstudio/ui-collectionview,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 3 records for other versions)
+npm,@nstudio/web,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 95 records for other versions)
+npm,@nstudio/web-angular,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 27 records for other versions)
+npm,@nstudio/xplat,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 26 records for other versions)
+npm,@nstudio/xplat-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nx/devkit,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 626 records for other versions)
+npm,@nx/eslint,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 563 records for other versions)
+npm,@nx/js,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 621 records for other versions)
+npm,@nx/node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@nx/workspace,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 621 records for other versions)
+npm,@oku-ui/alert-dialog,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@oku-ui/arrow,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@oku-ui/aspect-ratio,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,@oku-ui/collapsible,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,@oku-ui/dialog,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@oku-ui/focus-scope,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 6 records for other versions)
+npm,@oku-ui/hover-card,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@oku-ui/label,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,@oku-ui/motion,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,@oku-ui/motion-nuxt,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)
+npm,@oku-ui/popover,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@oku-ui/popper,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,@oku-ui/portal,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,@oku-ui/presence,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,@oku-ui/primitives,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 24 records for other versions)
+npm,@oku-ui/primitives-nuxt,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@oku-ui/progress,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@oku-ui/provide,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,@oku-ui/radio-group,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@oku-ui/roving-focus,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@oku-ui/scroll-area,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,@oku-ui/separator,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,@oku-ui/slider,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@oku-ui/slot,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@oku-ui/switch,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@oku-ui/tabs,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@oku-ui/toast,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@oku-ui/toggle,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,@oku-ui/toggle-group,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@oku-ui/toolbar,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@oku-ui/tooltip,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)
+npm,@oku-ui/use-composable,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 10 records for other versions)
+npm,@oku-ui/utils,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@oku-ui/visually-hidden,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@onereach/billing-dto,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/billing-shared,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/cb-schema-translator,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/channel-transformers,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/condition-builder,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/content-builder,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/expression-components,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/font-icons,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 190 records for other versions)
+npm,@onereach/get-version-data,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/idw-init-account-resources,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 74 records for other versions)
+npm,@onereach/or-browser,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/or-browser-next,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/or-file-uploader-next,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/or-pro,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 4 records for other versions)
+npm,@onereach/orest-cli,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/orest-vue-demi-vue3,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 2 records for other versions)
+npm,@onereach/regex-helper,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 0 records for other versions)
+npm,@onereach/regular-expressions,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/rwc-client,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-alert,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-checkbox,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 0 records for other versions)
+npm,@onereach/si-checkbox-group,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-code,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-collapsible-group,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-copyable-text,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 0 records for other versions)
+npm,@onereach/si-datepicker,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-divider,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 0 records for other versions)
+npm,@onereach/si-dropdown-advanced,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-dropdown-simple,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-list,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-merge-tag-input,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-root,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-select,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-step-chooser,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-switch,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/si-text-message,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 0 records for other versions)
+npm,@onereach/si-textinput,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 0 records for other versions)
+npm,@onereach/si-validated-timestring-input,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 0 records for other versions)
+npm,@onereach/ssml-editor,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/step-components,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/step-conversation,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/step-voice,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/styles,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 247 records for other versions)
+npm,@onereach/time-interpreter,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/types-contacts-api,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 261 records for other versions)
+npm,@onereach/ui-components-common,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 33 records for other versions)
+npm,@onereach/ui-components-vue2,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 168 records for other versions)
+npm,@onereach/v-event-calendar,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@onereach/webform,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@opengov/ppf-backend-types,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 573 records for other versions)
+npm,@operato/help,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/account-settings,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 110 records for other versions)
+npm,@or-sdk/adapters,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/agents,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/apps,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/auth,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/authorizer,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 171 records for other versions)
+npm,@or-sdk/base,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/billing,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/billing-internal,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 532 records for other versions)
+npm,@or-sdk/bot-templates,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 112 records for other versions)
+npm,@or-sdk/bots,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 156 records for other versions)
+npm,@or-sdk/cards,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/ccp,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/contacts,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/content-request,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/data-hub,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/data-hub-svc,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/deployments,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 103 records for other versions)
+npm,@or-sdk/discovery,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/druid,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/event-manager,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 108 records for other versions)
+npm,@or-sdk/files,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/files-sync-node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/flows,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/graph,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/hitl,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/idw,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 293 records for other versions)
+npm,@or-sdk/idw-public,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/invitations,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 74 records for other versions)
+npm,@or-sdk/key-value-storage,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 125 records for other versions)
+npm,@or-sdk/keys,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/library-categories,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/library-source,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/lookup,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/markdowner,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/payments,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 66 records for other versions)
+npm,@or-sdk/permissions,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/pgsql,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/providers,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 108 records for other versions)
+npm,@or-sdk/qna,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/queue-manager,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/sdk-api,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 112 records for other versions)
+npm,@or-sdk/settings,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 116 records for other versions)
+npm,@or-sdk/sku-builder,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/source,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/store,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 142 records for other versions)
+npm,@or-sdk/tickets,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/transcripts,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@or-sdk/users,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 152 records for other versions)
+npm,@or-sdk/views,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 164 records for other versions)
+npm,@orbitgtbelgium/orbit-components,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/babel-preset-base,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/babel-preset-kitt-universal,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/babel-preset-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/browserslist-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/commitlint-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-config-babel,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-config-babel-use,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-config-formatjs,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-config-node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-config-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-config-typescript,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-config-typescript-nestjs,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-config-typescript-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/eslint-plugin-ornikar,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/intl-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/jest-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/jest-config-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/jest-config-react-native,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/jest-config-react-native-web,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/lerna-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/monorepo-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/postcss-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/prettier-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/react-native-svg-transformer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/renovate-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/repo-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/repo-config-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/repo-config-react-legacy-css,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/rollup-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/rollup-plugin-postcss,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/storybook-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/stylelint-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@ornikar/typed-css-modules-loader,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/ai,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/automatic-cohorts-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@posthog/bitbucket-release-tracker,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/currency-normalization-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@posthog/customerio-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/databricks-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@posthog/event-sequence-timer-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/filter-out-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@posthog/first-time-event-tracker,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@posthog/geoip-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/gitub-star-sync-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@posthog/heartbeat-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@posthog/hedgehog-mode,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/icons,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/ingestion-alert-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@posthog/kinesis-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/maxmind-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@posthog/migrator3000-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/netdata-event-processing,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/pagerduty-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,@posthog/plugin-contrib,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/postgres-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@posthog/react-rrweb-player,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/rrdom,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/rrweb-snapshot,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/sendgrid-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/snowflake-export-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/taxonomy-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@posthog/twilio-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/twitter-followers-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@posthog/url-normalizer-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@posthog/variance-plugin,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,@posthog/web-dev-server,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@posthog/zendesk-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@postman/node-keytar,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@postman/wdio-allure-reporter,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@productdevbook/animejs-vue,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@productdevbook/chatwoot,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@productdevbook/motion,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@productdevbook/ts-i18n,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)
+npm,@qlik/api,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 37 records for other versions)
+npm,@qlik/browserslist-config,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@qlik/carbon-core,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@qlik/carboncopy,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@qlik/dts-bundler,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)
+npm,@qlik/embed-react,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 23 records for other versions)
+npm,@qlik/embed-runtime,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 24 records for other versions)
+npm,@qlik/embed-svelte,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 18 records for other versions)
+npm,@qlik/embed-web-components,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 21 records for other versions)
+npm,@qlik/eslint-config,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 66 records for other versions)
+npm,@qlik/eslint-config-base,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@qlik/eslint-config-react,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@qlik/eslint-config-svelte,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@qlik/eslint-config-vue,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@qlik/prettier-config,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 15 records for other versions)
+npm,@qlik/react-native-simple-grid,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 107 records for other versions)
+npm,@qlik/runtime-module-loader,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 22 records for other versions)
+npm,@qlik/sdk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 18 records for other versions)
+npm,@qlik/sprout-react,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,@qlik/tsconfig,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,@redhat-cloud-services/chrome,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@redhat-cloud-services/eslint-config-redhat-cloud-services,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@redhat-cloud-services/frontend-components-config-utilities,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@redhat-cloud-services/frontend-components-testing,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@redhat-cloud-services/frontend-components-translations,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@redhat-cloud-services/frontend-components-utilities,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@redhat-cloud-services/types,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@sameepsi/sor,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,@servicetitan/admin-layout,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/admin-sql-table,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/ajax-handlers,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/anvil-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/anvil-themes,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/anvil2-ext-atlas,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/anvil2-ext-charts,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/anvil2-ext-common,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/component-usage,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/confirm-navigation,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/cp-api,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/cp-mfe,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/cp-mfe-dev,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/cp-react-hooks,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/cp-ui,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/data-query,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/datadog-rum,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/docs-uikit,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/document-title,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/dte-pdf-editor,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/eh-module-communication,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/error-boundary,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/eslint-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/eslint-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/eslint-plugin-decorators-declare,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/eslint-plugin-folder-schema,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/eslint-plugin-mobx-6,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/eslint-plugin-processors-stub,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/folder-lint,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/forge,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/form-state,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/grid,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/hammer-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/hammer-token,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/hash-browser-router,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/help-center,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/html-sketchapp,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/install,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/intl,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/kendo-theme,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/ko-bridge,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/launchdarkly-service,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/lazy-module,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/ld-type-generator,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/log-service,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/marketing-integration-widgets,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/marketing-ui,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/measure-sheet-data,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/microfront-auth,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/microfront-tests,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/microfront-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/react-hooks,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/react-ioc,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/restrict-imports,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/skeleton,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/startup,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/startup-jest,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/startup-mfe-compat,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/startup-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/stylelint-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/suppress-warnings,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/tanstack-query-mobx,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/temporal-lite,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/testing-library,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/titan-chat-ui,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/titan-chat-ui-cypress,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/titan-chatbot-client,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/titan-chatbot-ui,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/va-mfe-loader,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/web-components,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/widget-platform,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@servicetitan/widget-platform-monolith,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@seung-ju/openapi-generator,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@silgi/better-auth,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 16 records for other versions)
+npm,@silgi/drizzle,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 18 records for other versions)
+npm,@silgi/graphql,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 20 records for other versions)
+npm,@silgi/openapi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,@silgi/permission,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 23 records for other versions)
+npm,@silgi/ratelimit,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@silgi/scalar,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@silgi/yoga,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@sme-ui/aoma-vevasound-metadata-lib,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@strapbuild/react-native-perspective-image-cropper,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@suraj_h/medium-common,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@tanstack/react-router,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/react-start-client,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/react-start-server,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/router-cli,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/router-core,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/router-devtools,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/router-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/router-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/router-vite-plugin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/solid-router,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/solid-start-client,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/solid-start-server,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/start-client-core,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/start-plugin-core,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/start-server-core,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/start-static-server-functions,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/start-storage-context,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@tanstack/virtual-file-routes,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@teselagen/bio-parsers,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@teselagen/bounce-loader,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@teselagen/file-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@teselagen/liquibase-tools,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@teselagen/range-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@teselagen/react-list,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@teselagen/sequence-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@teselagen/ui,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@things-factory/auth-base,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 147 records for other versions)
+npm,@things-factory/integration-base,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@things-factory/integration-marketplace,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 279 records for other versions)
+npm,@things-factory/shell,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 97 records for other versions)
+npm,@tiaanduplessis/json,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 6 records for other versions)
+npm,@trefox/sleekshop-js,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@trigo/atrix,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,@trigo/atrix-acl,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@trigo/atrix-elasticsearch,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@trigo/atrix-mongoose,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@trigo/atrix-orientdb,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@trigo/atrix-postgres,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@trigo/atrix-pubsub,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@trigo/atrix-redis,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@trigo/atrix-soap,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@trigo/atrix-swagger,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@trigo/bool-expressions,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@trigo/eslint-config-trigo,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,@trigo/fsm,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@trigo/hapi-auth-signedlink,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,@trigo/keycloak-api,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@trigo/trigo-hapijs,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@trpc-rate-limiter/cloudflare,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@trpc-rate-limiter/hono,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,@ui-ux-gang/devextreme-rpk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,@uipath/agent.sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@uipath/widget.sdk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@vapi-ai/server-sdk,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 14 records for other versions)
+npm,@varsityvibe/api-client,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@varsityvibe/utils,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,@varsityvibe/validation-schemas,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@viapip/eslint-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@vishadtyagi/full-year-calendar,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,@voiceflow/alexa-types,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 356 records for other versions)
+npm,@voiceflow/api-sdk,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 109 records for other versions)
+npm,@voiceflow/backend-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/body-parser,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/dtos-interact,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/eslint-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/exception,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/fetch,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/general-types,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/git-branch-check,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/google-dfes-types,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/husky-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/logger,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/metrics,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/natural-language-commander,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/pino,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/pino-pretty,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/react-chat,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 124 records for other versions)
+npm,@voiceflow/runtime,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/runtime-client-js,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/sdk-runtime,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/slate-serializer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/stitches-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/test-common,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@voiceflow/tsconfig-paths,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@workbench-stack/core,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 315 records for other versions)
+npm,@zapier/ai-actions,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@zapier/ai-actions-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@zapier/babel-preset-zapier,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@zapier/browserslist-config-zapier,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@zapier/secret-scrubber,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,@zapier/spectral-api-ruleset,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,ai3,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,angulartics2,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 3 records for other versions)
+npm,ansi-regex,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,ansi-styles,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,aonote,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 16 records for other versions)
+npm,arjson,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 12 records for other versions)
+npm,arnext,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,asciitranslator,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,ast-plugin,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,asyncapi-preview,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,atomic-notes,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,automation_model,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,autotel,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 38 records for other versions)
+npm,autotel-aws,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 37 records for other versions)
+npm,autotel-backends,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,autotel-cloudflare,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 26 records for other versions)
+npm,autotel-edge,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 20 records for other versions)
+npm,autotel-mcp,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,autotel-tanstack,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 32 records for other versions)
+npm,autotel-web,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 12 records for other versions)
+npm,avvvatars-vue,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,axios-builder,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,babel-plugin-linaria-css-to-undefined,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,babel-plugin-react-pure-component,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,babel-plugin-version,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,babel-preset-kinvey-flex-service,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,backslash,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,best_gpio_controller,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 10 records for other versions)
+npm,better-queue-nedb,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,blob-to-base64,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,browser-webdriver-downloader,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 15 records for other versions)
+npm,cache-manager,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 33 records for other versions)
+npm,cacheable,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,cacheable-request,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,canvas-nest.js,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,capacitor-plugin-apptrackingios,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,capacitor-plugin-ihealth,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,capacitor-plugin-purchase,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,capacitor-plugin-scgssigninwithgoogle,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,capacitor-plugin-vonage,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,capacitor-purchase-history,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)
+npm,capacitor-voice-recorder-wav,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,chalk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,chalk-template,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,coinmarketcap-api,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,color,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,color-convert,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,color-name,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,color-string,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,command-irail,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,create-arnext-app,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,create-glee-app,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,create-kinvey-flex-service,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,create-silgi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,creditcard.js,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 49 records for other versions)
+npm,cross-stitch,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,cwao,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 16 records for other versions)
+npm,cwao-tools,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 6 records for other versions)
+npm,cwao-units,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 12 records for other versions)
+npm,db-evo,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 4 records for other versions)
+npm,dbmux,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 6 records for other versions)
+npm,debug,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,devextreme-angular-rpk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,devextreme-rpk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,discord-bot-server,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,docusaurus-plugin-vanilla-extract,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,dont-go,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,duckdb,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 601 records for other versions)
+npm,echarts-for-react,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,ecto,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 63 records for other versions)
+npm,editable-contracts,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,ember-browser-services,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,ember-headless-form,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,ember-velcro,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 6 records for other versions)
+npm,enforce-branch-name,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,error-ex,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,esbuild-plugin-httpfile,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,eslint-config-crowdstrike,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,eslint-config-crowdstrike-node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,eslint-config-eslint,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,eslint-config-nitpicky,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,eslint-config-ppf,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 334 records for other versions)
+npm,eslint-config-teselagen,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,eslint-config-trigo,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,eslint-config-zeallat-base,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,eslint-plugin-folder-schema,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,eslint-scope,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,ethereum-ens,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,exact-ticker,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,expo-router-on-rails,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,express-starter-template,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,file-entry-cache,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 17 records for other versions)
+npm,filesize.js,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,firestore-search-engine,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 6 records for other versions)
+npm,fixed-round,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,flat-cache,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 14 records for other versions)
+npm,folder-lint,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,formik-error-focus,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,fpjson-lang,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)
+npm,fuzzy-finder,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,gantt-for-react,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,gatsby-plugin-antd,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,generator-meteor-stock,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,generator-ng-itobuz,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,get-them-args,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,git-branch-selector,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,git-git-git,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,globalize-rpk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,go-template,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,graphql-sequelize-teselagen,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,hamus.js,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,has-ansi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,hbsig,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,hopedraw,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,http-metrics-middleware,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,hyper-fullfacing,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,ids-css,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,ids-enterprise-ng,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 160 records for other versions)
+npm,ids-enterprise-typings,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 186 records for other versions)
+npm,intercom-client,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,is-arrayish,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,itobuz-angular-button,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,jest-date-mock,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,jest-electron,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,jest-less-loader,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 1 records for other versions)
+npm,jquery-bindings,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,jscrambler,A,record,UNAVAILABLE: no record for any malicious version (5 malicious versions; 41 records for other versions)
+npm,json-rules-engine-simplified,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,jsonsurge,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,just-toasty,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,keyv,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,kinetix-default-token-list,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,kinvey-cli-wrapper,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,kinvey-flex-scripts,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,kns-error-code,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)
+npm,koa2-swagger-ui,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 4 records for other versions)
+npm,korea-administrative-area-geo-json-util,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,leo-auth,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,leo-cli,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,leo-config,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,leo-connector-mongo,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,leo-connector-mysql,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,leo-connector-oracle,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,leo-cron,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,leo-logger,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,leo-streams,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,license-o-matic,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,limit-size,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,lint-md,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,lint-md-cli,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,lint-staged-imagemin,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,luno-api,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,m25-transaction-utils,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,manual-billing-system-miniapp-api,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,mbt,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,mcp-knowledge-graph,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,mcp-mermaid,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 2 records for other versions)
+npm,mcp-use,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,medusa-plugin-logs,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 6 records for other versions)
+npm,medusa-plugin-momo,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 28 records for other versions)
+npm,medusa-plugin-zalopay,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 17 records for other versions)
+npm,mobioffice-cli,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,monade,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,mstate-cli,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 15 records for other versions)
+npm,mstate-react,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,nanoreset,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,native-frontend-orb,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,next-styled-nprogress,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,ng-imports-checker,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,ngx-color,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 3 records for other versions)
+npm,ngx-toastr,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 15 records for other versions)
+npm,ngx-trend,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,ngx-wooapi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,ngx-ws,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 3 records for other versions)
+npm,node-env-resolver,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,node-env-resolver-aws,A,record,UNAVAILABLE: no record for any malicious version (4 malicious versions; 10 records for other versions)
+npm,node-env-resolver-nextjs,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,node-env-resolver-vite,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,node-ipc,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,onfire.js,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,oradm-to-gql,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,oradm-to-sqlz,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,ove-auto-annotate,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,parcel-plugin-asset-copier,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,picasso-plugin-hammer,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 17 records for other versions)
+npm,picasso-plugin-q,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 90 records for other versions)
+npm,picasso.js,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 17 records for other versions)
+npm,pico-uid,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,pkg-readme,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,pm2-gelf-json,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 2 records for other versions)
+npm,posthog-docusaurus,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,posthog-js,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 362 records for other versions)
+npm,posthog-node,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,posthog-react-native,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,posthog-react-native-session-replay,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,prebid-universal-creative,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 6 records for other versions)
+npm,prebid.js,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 75 records for other versions)
+npm,prime-one-table,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,prjct-cli,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 268 records for other versions)
+npm,prompt-eng,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 20 records for other versions)
+npm,proto-tinker-wc,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 351 records for other versions)
+npm,qlik-chart-modules,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 25 records for other versions)
+npm,qlik-modifiers,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)
+npm,qlik-object-conversion,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,quickswap-ads-list,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 12 records for other versions)
+npm,quickswap-default-staking-list,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,quickswap-default-staking-list-address,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 23 records for other versions)
+npm,quickswap-default-token-list,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 69 records for other versions)
+npm,quickswap-sdk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 10 records for other versions)
+npm,ra-auth-firebase,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,rdflib,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 85 records for other versions)
+npm,react-adsense,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,react-autolink-text,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,react-hook-form-persist,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-jsonschema-form-conditionals,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-jsonschema-form-extras,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-jsonschema-rxnt-extras,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-keycloak-context,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-leaflet-cluster-layer,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,react-leaflet-heatmap-layer,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-leaflet-marker-layer,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,react-library-setup,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-native-datepicker-modal,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-native-google-maps-directions,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-native-log-level,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-native-modest-checkbox,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-native-modest-storage,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-native-use-modal,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-native-view-finder,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,react-native-websocket,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-packery-component,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,react-qr-image,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,react-scrambled-text,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,rediff,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,rediff-viewer,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,relationship.js,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 3 records for other versions)
+npm,ribbon.js,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,roidjs,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,rollup-plugin-httpfile,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,rstreams-metrics,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,sa-id-gen,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,samesame,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,serverless-leo,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 12 records for other versions)
+npm,shell-exec,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 1 records for other versions)
+npm,shinhan-limit-scrap,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,silgi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 284 records for other versions)
+npm,simple-swizzle,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,size-sensor,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,slice-ansi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,slice.js,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,sn-listbox,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,stoor,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,strip-ansi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,supports-color,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,supports-hyperlinks,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,svelte-autocomplete-select,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,svelte-toasty,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,tcsp,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,tcsp-draw-test,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 1 records for other versions)
+npm,tcsp-test-vd,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 32 records for other versions)
+npm,template-lib,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,test-ajs,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 9 records for other versions)
+npm,testnpmnmp,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,tg-client-query-builder,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,tg-seq-gen,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,thangved-react-grid,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,tiaan,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,timeago-react,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 3 records for other versions)
+npm,timeago.js,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,token.js-fork,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,trigo-react-app,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,ts-gaussian,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 2 records for other versions)
+npm,ts-relay-cursor-paging,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)
+npm,tslint-folder-schema,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,typeface-antonio-complete,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,typefence,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 3 records for other versions)
+npm,ua-parser-js,B,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 19 records for other versions)
+npm,unadapter,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 4 records for other versions)
+npm,uniswap-smart-order-router,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,uri-parse,A,record,UNAVAILABLE: no record for any malicious version (2 malicious versions; 0 records for other versions)
+npm,use-unsaved-changes,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 6 records for other versions)
+npm,v-plausible,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,valid-south-african-id,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,valuedex-sdk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,ve-bamreader,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,verdaccio-okta-oauth,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,verdaccio-tarball-local-storage,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,verror-extra,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 0 records for other versions)
+npm,vite-plugin-httpfile,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,wao,A,record,UNAVAILABLE: no record for any malicious version (3 malicious versions; 82 records for other versions)
+npm,warp-contracts-plugin-deploy-test,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,wdb-cli,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 10 records for other versions)
+npm,wdb-core,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 11 records for other versions)
+npm,wdb-sdk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 15 records for other versions)
+npm,weavedb-client,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 57 records for other versions)
+npm,weavedb-contracts,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 30 records for other versions)
+npm,weavedb-exm-sdk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 7 records for other versions)
+npm,weavedb-exm-sdk-web,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 12 records for other versions)
+npm,weavedb-node-client,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 42 records for other versions)
+npm,weavedb-offchain,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 42 records for other versions)
+npm,weavedb-sdk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 142 records for other versions)
+npm,weavedb-sdk-node,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 109 records for other versions)
+npm,weavedb-tools,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 14 records for other versions)
+npm,webpack-loader-httpfile,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,wenk,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,wot-api,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,wrap-ansi,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 3 records for other versions)
+npm,xmorse,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,yargs-help-output,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 2 records for other versions)
+npm,zapier-async-storage,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,zapier-platform-core,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,zapier-platform-legacy-scripting-runner,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,zapier-platform-schema,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,zapier-scripts,A,record,"UNAVAILABLE: malicious version recorded, but no record for its prev1"
+npm,zkjson,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 37 records for other versions)
+npm,zuper-sdk,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 8 records for other versions)
+npm,zuper-stream,A,record,UNAVAILABLE: no record for any malicious version (1 malicious versions; 5 records for other versions)

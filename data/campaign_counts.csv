@@ -1,0 +1,35 @@
+incident,family,actor,tier,ecosystem,candidates,established,mal_record,minimal_pair,full_set
+Sha1-Hulud: The Second Coming,Shai-Hulud,,A,npm,449,449,271,79,12
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,A,npm,322,322,221,78,12
+Shai-Hulud: Here We Go Again,Shai-Hulud,,A,npm,352,352,263,76,8
+Shai-Hulud (first wave),Shai-Hulud,,A,npm,135,135,85,38,4
+Mini Shai-Hulud,Shai-Hulud,,A,npm,30,30,30,22,0
+CanisterWorm,CanisterWorm,TeamPCP,A,npm,40,40,29,15,5
+Miasma,Miasma,,A,npm,44,44,15,8,1
+unnamed-2026-05-19,(unnamed),,A,npm,4,4,2,2,0
+s1ngularity,s1ngularity,,A,npm,6,6,2,1,0
+Shai-Hulud (wave unspecified),Shai-Hulud,,A,npm,1,1,1,1,0
+unnamed-2026-02-19,(unnamed),,A,npm,1,1,1,1,1
+IronWorm,IronWorm,,A,npm,30,30,1,0,0
+unnamed-2025-09-08,(unnamed),,A,npm,14,14,0,0,0
+unnamed-2025-09-08,(unnamed),Qix / npmjs.help phishing,A,npm,11,11,0,0,0
+unnamed-2026-04-29,(unnamed),,A,npm,4,4,1,0,0
+unnamed-2018-07-12,(unnamed),,A,npm,2,2,1,0,0
+unnamed-2021-10-22,(unnamed),,B,npm,1,1,0,0,0
+unnamed-2022-03-16,(unnamed),,A,npm,1,1,1,0,0
+unnamed-2026-07-11,(unnamed),,A,npm,1,1,0,0,0
+unnamed-2026-09-23,(unnamed),,A,npm,1,1,1,0,0
+Mini Shai-Hulud,Shai-Hulud,,A,pypi,15,15,13,13,12
+Hades,Shai-Hulud,TeamPCP,A,pypi,4,4,3,3,3
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,A,pypi,2,2,2,2,2
+unnamed-2025-07-31,(unnamed),,A,pypi,1,1,1,1,1
+unnamed-2026-02-06,(unnamed),,A,pypi,1,1,1,1,1
+unnamed-2026-03-24,(unnamed),,B,pypi,1,1,1,1,1
+unnamed-2026-03-27,(unnamed),TeamPCP,A,pypi,1,1,1,1,1
+unnamed-2026-05-19,(unnamed),,A,pypi,1,1,1,1,1
+unnamed-2022-05-24,(unnamed),,B,pypi,1,0,0,0,0
+unnamed-2024-12-10,(unnamed),,A,pypi,1,1,0,0,0
+unnamed-2026-04-29,(unnamed),,A,pypi,1,1,0,0,0
+unnamed-2026-05-07,(unnamed),,A,pypi,1,1,0,0,0
+unnamed-2026-07-24,(unnamed),,A,pypi,1,1,1,0,0
+unnamed-2026-09-23,(unnamed),,A,pypi,1,1,0,0,0

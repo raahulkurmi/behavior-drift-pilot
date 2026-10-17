@@ -1,0 +1,9 @@
+# Private disclosure notes: must never reach the public repository.
+docs/DISCLOSURE_NOTES.md
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local working files (downloaded metadata exports, intermediate screens)
+scratch/
