@@ -1,0 +1,67 @@
+incident,family,actor,ecosystem,package,earliest_malicious,comparison,analysis_gap_days,gap_stratum
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/accounting-sdk-node,1.26.1,1.26.0,19.9,<90
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/auth-sdk,1.25.1,1.25.0,19.9,<90
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/auth-sdk-node,1.21.1,1.21.0,19.9,<90
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/customer-sdk-node,1.55.1,1.55.0,23.1,<90
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/document-sdk,1.45.1,1.45.0,23.1,<90
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/document-sdk-node,1.43.1,1.43.0,23.1,<90
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/gdv-sdk-node,2.6.1,2.6.0,19.9,<90
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/process-manager-sdk-node,1.13.1,1.13.0,155.2,90-365
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/tenant-sdk,1.34.1,1.34.0,65.1,<90
+CanisterWorm,CanisterWorm,TeamPCP,npm,@emilgroup/tenant-sdk-node,1.33.1,1.33.0,65.1,<90
+Hades,Shai-Hulud,TeamPCP,pypi,embiggen,0.11.97,0.11.96,150.6,90-365
+Hades,Shai-Hulud,TeamPCP,pypi,gpsea,0.9.14,0.9.13,137.7,90-365
+Hades,Shai-Hulud,TeamPCP,pypi,pyphetools,0.9.120,0.9.119,216.3,90-365
+Miasma,Miasma,,npm,leo-connector-elasticsearch,2.0.6,3.0.15,104.1,90-365
+Miasma,Miasma,,npm,serverless-convention,2.0.4,2.0.3,658.0,>365
+Mini Shai-Hulud,Shai-Hulud,,npm,@redhat-cloud-services/javascript-clients-shared,2.0.8,2.0.5,223.0,90-365
+Mini Shai-Hulud,Shai-Hulud,,npm,@redhat-cloud-services/sources-client,3.0.10,3.0.7,223.1,90-365
+Mini Shai-Hulud,Shai-Hulud,,pypi,dreamgen,1.8.1,1.1.1,74.4,<90
+Mini Shai-Hulud,Shai-Hulud,,pypi,ensmallen,0.8.101,0.8.100,251.7,90-365
+Mini Shai-Hulud,Shai-Hulud,,pypi,executor-engine,0.3.4,0.3.3,316.0,90-365
+Mini Shai-Hulud,Shai-Hulud,,pypi,funcdesc,0.2.2,0.2.1,267.1,90-365
+Mini Shai-Hulud,Shai-Hulud,,pypi,magique,0.6.9,0.6.7,307.0,90-365
+Mini Shai-Hulud,Shai-Hulud,,pypi,okite,0.0.7,0.0.6,1353.5,>365
+Mini Shai-Hulud,Shai-Hulud,,pypi,pantheon-agents,0.6.2,0.5.2,52.3,<90
+Mini Shai-Hulud,Shai-Hulud,,pypi,pantheon-toolsets,0.5.5,0.5.4,284.2,90-365
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,npm,@antv/f6,0.1.19,0.0.19,1216.9,>365
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,npm,@antv/g2-extension-plot,0.3.2,0.2.2,419.0,>365
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,npm,@antv/g6-react-node,1.5.8,1.4.8,887.8,>365
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,npm,@antv/li-core-assets,1.4.7,1.3.7,383.7,>365
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,npm,@antv/x6,3.2.7,3.1.7,61.8,<90
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,npm,@tanstack/eslint-plugin-router,1.161.9,1.161.6,56.9,<90
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,npm,@tanstack/nitro-v2-vite-plugin,1.154.12,1.154.9,56.9,<90
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,npm,@tanstack/solid-router-devtools,1.166.16,1.166.13,30.3,<90
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,pypi,guardrails-ai,0.10.1,0.10.0,38.2,<90
+Mini Shai-Hulud is back,Shai-Hulud,TeamPCP,pypi,mistralai,2.4.6,2.4.3,14.5,<90
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@antstackio/shelbysam,1.1.7,1.1.6,510.0,>365
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@asyncapi/multi-parser,2.2.1,2.2.0,391.5,>365
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@asyncapi/protobuf-schema-parser,3.6.1,3.6.0,83.8,<90
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@asyncapi/specs,6.10.1,6.10.0,98.4,90-365
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@oku-ui/avatar,0.6.2,0.6.1,688.2,>365
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@posthog/intercom-plugin,0.0.8,0.0.7,1122.8,>365
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@posthog/rrweb,0.0.31,0.0.30,15.2,<90
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@postman/wdio-junit-reporter,0.0.4,0.0.3,884.8,>365
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@silgi/ecosystem,0.7.6,0.7.5,141.5,90-365
+Sha1-Hulud: The Second Coming,Shai-Hulud,,npm,@trackstar/test-package,1.1.5,1.1.4,850.9,>365
+Shai-Hulud (first wave),Shai-Hulud,,npm,@art-ws/slf,2.0.15,2.0.9,13.8,<90
+Shai-Hulud (first wave),Shai-Hulud,,npm,@nstudio/focus,20.0.4,20.0.3,311.3,90-365
+Shai-Hulud (first wave),Shai-Hulud,,npm,@operato/help,9.0.35,9.0.26,17.6,<90
+Shai-Hulud (first wave),Shai-Hulud,,npm,@operato/layout,9.0.35,9.0.21,42.8,<90
+Shai-Hulud (first wave),Shai-Hulud,,npm,@operato/utils,9.0.22,9.0.21,42.8,<90
+Shai-Hulud (first wave),Shai-Hulud,,npm,@teselagen/react-table,6.10.19,6.10.18,160.2,90-365
+Shai-Hulud (first wave),Shai-Hulud,,npm,capacitorandroidpermissions,0.0.4,0.0.3,352.5,90-365
+Shai-Hulud (first wave),Shai-Hulud,,npm,react-complaint-image,0.0.32,0.0.31,99.9,90-365
+Shai-Hulud (first wave),Shai-Hulud,,npm,react-jsonschema-rxnt-extras,0.4.6,0.4.2,99.9,90-365
+Shai-Hulud (first wave),Shai-Hulud,,npm,tg-redbird,1.3.1,1.3.0,198.1,90-365
+Shai-Hulud (wave unspecified),Shai-Hulud,,npm,@ctrl/plex,6.0.0,4.7.1,14.0,<90
+Shai-Hulud: Here We Go Again,Shai-Hulud,,npm,@cacheable/memory,2.2.1,2.2.0,37.7,<90
+Shai-Hulud: Here We Go Again,Shai-Hulud,,npm,@cacheable/node-cache,3.1.2,3.1.1,37.6,<90
+Shai-Hulud: Here We Go Again,Shai-Hulud,,npm,@cacheable/utils,2.5.1,2.5.0,37.7,<90
+Shai-Hulud: Here We Go Again,Shai-Hulud,,npm,@servicetitan/anvil-css-utilities,14.5.4,14.5.3,432.4,>365
+Shai-Hulud: Here We Go Again,Shai-Hulud,,npm,@servicetitan/anvil-fonts,14.5.4,14.5.3,432.4,>365
+Shai-Hulud: Here We Go Again,Shai-Hulud,,npm,@servicetitan/quick-actions,1.15.2,1.15.1,19.6,<90
+unnamed-2025-07-31,,,pypi,num2words,0.5.15,0.5.14,222.7,90-365
+unnamed-2026-02-06,,,pypi,dydx-v4-client,1.1.5.post1,1.1.5,149.2,90-365
+unnamed-2026-03-27,,TeamPCP,pypi,telnyx,4.87.1,4.70.0,14.4,<90
+unnamed-2026-05-19,,,pypi,durabletask,1.4.1,1.4.0,40.9,<90
