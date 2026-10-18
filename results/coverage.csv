@@ -1,7 +1,7 @@
 pairs,ecosystem,sampled,evaluable,post2024_evaluable,record_status_counts,strata_evaluable
 compromised,npm,49,34,31,completed=80;error_analysis=18,<90=19;90-365=7;>365=8
-compromised,pypi,17,10,10,completed=25;error_analysis=9,<90=3;90-365=7;>365=0
-within,npm,39,38,35,completed=76;error_analysis=2,<90=28;90-365=8;>365=2
-within,pypi,30,18,16,completed=42;error_analysis=18,<90=11;90-365=5;>365=2
+compromised,pypi,17,10,10,completed=25;error_analysis=9,<90=<5;90-365=7;>365=<5
+within,npm,39,38,35,completed=76;error_analysis=<5,<90=28;90-365=8;>365=<5
+within,pypi,30,18,16,completed=42;error_analysis=18,<90=11;90-365=5;>365=<5
 baseline,npm,82,82,43,completed=164,<90=43;90-365=32;>365=7
-baseline,pypi,64,63,41,completed=127;error_analysis=1,<90=26;90-365=30;>365=7
+baseline,pypi,64,63,41,completed=127;error_analysis=<5,<90=26;90-365=30;>365=7

@@ -1,0 +1,3 @@
+set,pairs,median_gap_days,stratum_<90,stratum_90-365,stratum_>365
+"eligible (data/comparison.csv, eligible_primary = YES)",172,222.8,52,50,70
+sample (data/sample.csv),66,102.0,30,22,14

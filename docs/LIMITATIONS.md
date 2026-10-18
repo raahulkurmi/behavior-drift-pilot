@@ -16,8 +16,13 @@ with what the run showed.
   install phase ended in `error_analysis`. On the benign side this affected 13 of 69
   within-package pairs and 1 of 146 baseline pairs. Unevaluable records are not missing at random:
   the rate is higher for PyPI.
-- **Small strata.** Only 4 within-package benign pairs fall in the >365 d stratum, so H3 was
-  evaluated on within-package and baseline pairs pooled (18 pairs in that stratum).
+- **Small strata.** Fewer than 5 evaluable within-package benign pairs fall in the >365 d stratum
+  (the cell is suppressed in `results/`), so H3 was evaluated on within-package and baseline pairs
+  pooled (18 pairs in that stratum).
+- **Suppressed small cells.** From the "Audit fixes" commit on, every results cell with fewer than
+  5 units is shown as `<5` (docs/DEVIATIONS.md item 22). Some suppressed cells can still be
+  recovered by subtracting the shown cells from the shown margins, and earlier commits contain
+  them unsuppressed.
 
 ## What the records can see
 
@@ -28,9 +33,10 @@ with what the run showed.
 - **Sandbox evasion.** A payload that detects the sandbox and does nothing looks like no change.
 - **No sandbox-version field.** Drift is approximated by the time between the two analyses. The
   benign rate rose from 14% (<90 d) to 44% (>365 d) in the pooled benign pairs, so drift is real
-  and of the same order as some compromised-side effects. The compromised pairs have long gaps
-  (median 223 days among eligible packages). Comparisons are therefore stratified, and only the
-  <90 d stratum gives a contrast with little drift.
+  and of the same order as some compromised-side effects. The compromised pairs have long gaps:
+  the median is 222.8 days among the 172 eligible packages and 102.0 days in the 66-package
+  sample (`results/gap_stats.csv`, printed by `scripts/gap_stats.py`). Comparisons are therefore
+  stratified, and only the <90 d stratum gives a contrast with little drift.
 - **Bait changes.** The SSH-key and AWS-variable baits were added to the sandbox in late 2023. The
   post-2024 sensitivity analysis (both records created on or after 2024-01-01) gives similar
   numbers: M1p 34/41, M2 5/51.

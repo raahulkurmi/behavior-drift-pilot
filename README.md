@@ -19,11 +19,15 @@ IP address found inside a record was ever requested.
 | [docs/PREREGISTRATION.md](docs/PREREGISTRATION.md) | design, normalisation rules, metrics and predictions, fixed before any record was read; amendments in section 11 |
 | [docs/DEVIATIONS.md](docs/DEVIATIONS.md) | interpretations and decisions not settled by the pre-registration |
 | [docs/LIMITATIONS.md](docs/LIMITATIONS.md) | limitations, with what the run showed |
-| [results/RESULTS.md](results/RESULTS.md) | aggregate results; tables in `results/*.csv` |
+| [results/RESULTS.md](results/RESULTS.md) | aggregate results; tables in `results/*.csv` (cells with fewer than 5 units shown as `<5`) |
+| [results/EXPLORATORY.md](results/EXPLORATORY.md) | exploratory analyses, **not pre-registered** |
 
 ## Reproducing
 
-Python 3.11+, standard library only. Run from the repository root. `scratch/` is git-ignored and
+Tested with Python 3.13.9 (no other version was tested). The Step 0 scripts need `packaging`
+(PEP 440 version ordering); everything else uses only the standard library. Install the pinned
+version with `python3 -m pip install -r requirements.txt` (`packaging==24.2`). Run from the
+repository root. `scratch/` is git-ignored and
 holds downloaded inputs and record contents.
 
 ```sh
@@ -35,6 +39,8 @@ mkdir -p scratch/psl && curl -sSfo scratch/psl/public_suffix_list.dat \
 python3 scripts/fetch_records.py             # fetch + pin records (data/record_pins.csv)
 python3 scripts/key_census.py                # key names vs schema (prints key names only)
 python3 scripts/results.py                   # re-fetch, verify md5Hash, compute results/
+python3 scripts/gap_stats.py                 # analysis-time gap distribution (results/gap_stats.csv)
+python3 scripts/exploratory.py               # NOT pre-registered: results/EXPLORATORY.md
 ```
 
 `scripts/results.py` re-fetches every pinned record by name and stops if its `md5Hash` differs

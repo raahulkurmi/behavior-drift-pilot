@@ -7,7 +7,8 @@
    and linked-group sensitivity, the post-2024 sensitivity and the masked credential entries,
    then evaluate H1-H5.
 Outputs are aggregate only: results/*.csv and results/RESULTS.md. No per-package or per-incident
-behaviour, and no item, domain, path or command, is written anywhere.
+behaviour, and no item, domain, path or command, is written anywhere. Cells counting fewer than 5
+units are written as "<5" (docs/DEVIATIONS.md item 22).
 Usage: python3 scripts/results.py
 """
 
@@ -32,6 +33,32 @@ STRATA = ("<90", "90-365", ">365")
 POST = datetime(2024, 1, 1, tzinfo=timezone.utc)
 MIN_INC, MIN_PAIRS = 5, 10
 OUT = "results"
+# Small-cell suppression (docs/DEVIATIONS.md item 22): any written cell that counts fewer than
+# SUPPRESS_BELOW units (incidents, packages, pairs or records), and every number derived from
+# such a cell, is written as "<5". Computation and prediction evaluation use the unsuppressed values.
+SUPPRESS_BELOW = 5
+SUP = "<5"
+
+
+def small(n):
+    return int(n) < SUPPRESS_BELOW
+
+
+def sup_count(n):
+    return SUP if small(n) else n
+
+
+_KN = re.compile(r"(\d+)/(\d+) = ([0-9.]+)( \[[^\]]*\])?")
+
+
+def sup_text(s):
+    """Suppress 'k/n = share [lo, hi]' fragments with n < 5 inside an estimate string."""
+    return _KN.sub(lambda m: SUP if small(m[2]) else m[0], s)
+
+
+def sup_pairs(s):
+    """Suppress the counts in 'name=count;name=count' strings."""
+    return ";".join(f"{k}={sup_count(v)}" for k, v in (x.split("=", 1) for x in s.split(";") if x))
 
 
 def ts(s):
@@ -223,14 +250,18 @@ def main():
                 "evaluable": n >= MIN_PAIRS, "clusters": len(clusters), "package_weighted": pw}
 
     def add(metric, ecosystem, strat, category, subset, res):
-        rows.append({"metric": metric, "ecosystem": ecosystem, "stratum": strat, "category": category,
-                     "subset": subset, "positive": res["k"], "denominator": res["n"],
-                     "share": f"{res['share']:.4f}" if not math.isnan(res["share"]) else "",
-                     "ci_low": f"{res['lo']:.4f}" if not math.isnan(res["lo"]) else "",
-                     "ci_high": f"{res['hi']:.4f}" if not math.isnan(res["hi"]) else "",
-                     "clusters": res.get("clusters", res["n"]),
-                     "package_weighted": f"{res['package_weighted']:.4f}" if "package_weighted" in res and not math.isnan(res["package_weighted"]) else "",
-                     "evaluable_cell": "YES" if res["evaluable"] else "NO (counts only)"})
+        row = {"metric": metric, "ecosystem": ecosystem, "stratum": strat, "category": category,
+               "subset": subset, "positive": res["k"], "denominator": res["n"],
+               "share": f"{res['share']:.4f}" if not math.isnan(res["share"]) else "",
+               "ci_low": f"{res['lo']:.4f}" if not math.isnan(res["lo"]) else "",
+               "ci_high": f"{res['hi']:.4f}" if not math.isnan(res["hi"]) else "",
+               "clusters": sup_count(res.get("clusters", res["n"])),
+               "package_weighted": f"{res['package_weighted']:.4f}" if "package_weighted" in res and not math.isnan(res["package_weighted"]) else "",
+               "evaluable_cell": "YES" if res["evaluable"] else "NO (counts only)"}
+        if small(res["n"]):  # every number of a cell with fewer than 5 units
+            for k in ("positive", "denominator", "share", "ci_low", "ci_high", "clusters", "package_weighted"):
+                row[k] = SUP
+        rows.append(row)
 
     for c in comp:
         c["pkgkey"] = (c["eco"], c["pkg"])
@@ -282,10 +313,11 @@ def main():
             for p in q:
                 for o in (p["older_obj"], p["newer_obj"]):
                     st[reduced[o]["status"]] += 1
-            cov.append({"pairs": name, "ecosystem": eco, "sampled": len(q), "evaluable": sum(p["evaluable"] for p in q),
-                        "post2024_evaluable": sum(p["evaluable"] and p["post2024"] for p in q),
-                        "record_status_counts": ";".join(f"{k}={v}" for k, v in sorted(st.items())),
-                        "strata_evaluable": ";".join(f"{s}={sum(1 for p in q if p['evaluable'] and p['stratum'] == s)}" for s in STRATA)})
+            cov.append({"pairs": name, "ecosystem": eco, "sampled": sup_count(len(q)),
+                        "evaluable": sup_count(sum(p["evaluable"] for p in q)),
+                        "post2024_evaluable": sup_count(sum(p["evaluable"] and p["post2024"] for p in q)),
+                        "record_status_counts": sup_pairs(";".join(f"{k}={v}" for k, v in sorted(st.items()))),
+                        "strata_evaluable": sup_pairs(";".join(f"{s}={sum(1 for p in q if p['evaluable'] and p['stratum'] == s)}" for s in STRATA))})
     with open(f"{OUT}/coverage.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(cov[0]), lineterminator="\n")
         w.writeheader()
@@ -298,10 +330,12 @@ def main():
         cnt = Counter(e for o in olds for e in reduced[o]["items"]["credential"])
         for e, _ in nz.CREDENTIAL_LIST:
             share = cnt[e] / len(olds) if olds else 0
-            masked.append({"ecosystem": eco, "entry": e, "older_records": len(olds), "present": cnt[e],
-                           "share": f"{share:.4f}", "masked_by_harness": "YES" if share >= 0.95 else "NO"})
+            masked.append({"ecosystem": eco, "entry": e, "older_records": sup_count(len(olds)),
+                           "present": sup_count(cnt[e]), "share": SUP if small(cnt[e]) else f"{share:.4f}",
+                           "masked_by_harness": "YES" if share >= 0.95 else "NO", "_present_raw": cnt[e]})
     with open(f"{OUT}/credential_masking.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(masked[0]), lineterminator="\n")
+        w = csv.DictWriter(f, fieldnames=[k for k in masked[0] if not k.startswith("_")], lineterminator="\n",
+                           extrasaction="ignore")
         w.writeheader()
         w.writerows(masked)
 
@@ -370,6 +404,7 @@ def main():
                           c2["hi"] <= 0.05 and c3["hi"] <= 0.05 and n2["hi"] <= 0.15,
                           c2["evaluable"] and c3["evaluable"] and n2["evaluable"])))
 
+    preds = [(a, b, sup_text(c), d) for a, b, c, d in preds]  # outcomes use unsuppressed values
     with open(f"{OUT}/predictions.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, lineterminator="\n")
         w.writerow(["prediction", "threshold", "estimate", "outcome"])
@@ -428,7 +463,8 @@ def write_md(rows, cov, masked, preds, summary, h3src):
          "Gap = analysis-time gap between the two records of a pair. M1 intervals are Wilson 95%; M1p, M2 and "
          "M3 intervals are cluster-bootstrap percentile 95% (10,000 resamples, `random.Random(20261017)`; "
          "clusters: incidents for M1p, packages for M2/M3). A cell with fewer than 5 incidents (M1) or fewer "
-         "than 10 pairs is counts only.", "",
+         "than 10 pairs is counts only. Any cell counting fewer than 5 units, and every number derived "
+         "from it, is shown as `<5` (docs/DEVIATIONS.md item 22).", "",
          "## Predictions", "", "| prediction | threshold | estimate | outcome |", "|---|---|---|---|"]
     L += [f"| {a} | {b} | {c} | **{d}** |" for a, b, c, d in preds]
     L += ["", f"H3 was evaluated on: {h3src}.", "",
@@ -456,7 +492,7 @@ def write_md(rows, cov, masked, preds, summary, h3src):
     L += ["", "## Credential entries masked by the harness (>= 95% of evaluable older records)", "",
           "| ecosystem | entry | older records | present | share | masked |", "|---|---|---|---|---|---|"]
     L += [f"| {m['ecosystem']} | `{m['entry']}` | {m['older_records']} | {m['present']} | {m['share']} | {m['masked_by_harness']} |"
-          for m in masked if int(m["present"]) > 0]
+          for m in masked if m["_present_raw"] > 0]
     L += ["", "Entries not listed were present in no evaluable older record.", "",
           "## Summary numbers", "", "| quantity | value |", "|---|---|"]
     L += [f"| {k} | {v} |" for k, v in summary.items()]

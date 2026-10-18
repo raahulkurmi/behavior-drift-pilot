@@ -50,8 +50,8 @@ record was fetched, unless it is marked otherwise.
 14. **Bootstrap generator.** Each interval uses a fresh `random.Random(20261017)`, so every
     interval is reproducible on its own. Intervals are percentile intervals (2.5%, 97.5%).
 15. **H3 interval.** H3 ran on the pooled M2 + M3 pairs, because M2 had fewer than 10 pairs in the
-    >365 d stratum: 4 evaluable pairs, against 6 in the sampled list, since some records are not
-    evaluable. The difference interval resamples packages, the clusters of both strata, once per
+    >365 d stratum: fewer than 5 evaluable pairs (a suppressed cell, item 22), from 6 in the sampled
+    list, since some records are not evaluable. The difference interval resamples packages, the clusters of both strata, once per
     iteration.
 16. **H4 interval.** Incidents (M1p) and packages (M2) are resampled independently in each
     iteration, and the interval is that of the difference.
@@ -69,5 +69,26 @@ record was fetched, unless it is marked otherwise.
 21. **Small cells.** Committed tables give counts per ecosystem x stratum x category, as
     pre-registered, including cells with very small denominators. Combined with `data/sample.csv`,
     which lists the sampled packages and their gap strata, a very small cell could narrow down
-    the behaviour of an individual package. Before any public release, cells with a denominator
-    below 5 should be suppressed, or `data/sample.csv` withheld. This repository is private.
+    the behaviour of an individual package. Addressed from the "Audit fixes" commit on by item 22.
+22. **Small-cell suppression (from the "Audit fixes" commit on).**
+    - **The rule.** `scripts/results.py` and `scripts/exploratory.py` write every cell that counts
+      fewer than 5 units (incidents, packages, pairs or records), and every number derived from
+      such a cell (shares, intervals, outcomes), as `<5` in `results/*.csv`, `results/RESULTS.md`
+      and `results/EXPLORATORY.md`. Prediction outcomes are still computed from the unsuppressed
+      values, so they are unchanged.
+    - **Earlier commits.** 5a7cae7 and ded0640 contain these cells unsuppressed. History is not
+      rewritten, because the repository contains a pre-registration, and its commit history is
+      the record of what was fixed when.
+    - **Residual disclosure.** The rule is a primary suppression only. In `results/metrics.csv`,
+      30 suppressed pair-level cells can still be recovered by subtracting shown cells from shown
+      margins: pooled = npm + pypi, and all strata = the sum of the three strata. Removing that
+      would need complementary suppression, which has not been applied.
+    - **Exploratory totals.** In `results/EXPLORATORY.md`, only the totals that `RESULTS.md`
+      already shows unsuppressed are printed. Per-ecosystem family and linked-group totals are
+      omitted, because they would reveal suppressed rows.
+23. **Gap statistics** are printed by `scripts/gap_stats.py` (`results/gap_stats.csv`). The median
+    gap previously quoted in docs/LIMITATIONS.md (223 days) came from an inline computation; the
+    script gives 222.8 days for the eligible set.
+24. **Exploratory analyses** (`results/EXPLORATORY.md`, `scripts/exploratory.py`) were added after
+    the results and are not pre-registered: the per-unit H1 tables, the missingness bounds and the
+    deviation reruns.
