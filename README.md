@@ -207,7 +207,7 @@ Author: Rahul Kurmi ([github.com/raahulkurmi](https://github.com/raahulkurmi)). 
 the commit you used.
 
 ```bibtex
-@misc{chaudhary2026behaviordrift,
+@misc{kurmi2026behaviordrift,
   author       = {Rahul Kurmi},
   title        = {behavior-drift-pilot: a pre-registered pilot on install-time behaviour changes
                   in compromised npm and PyPI releases},
