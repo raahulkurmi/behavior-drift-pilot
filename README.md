@@ -203,12 +203,12 @@ python3 scripts/exploratory.py                      # results/EXPLORATORY.md (no
 
 ## Citation and contact
 
-Author: Rahul Chaudhary ([github.com/raahulkurmi](https://github.com/raahulkurmi)). Please cite
+Author: Rahul Kurmi ([github.com/raahulkurmi](https://github.com/raahulkurmi)). Please cite
 the commit you used.
 
 ```bibtex
 @misc{chaudhary2026behaviordrift,
-  author       = {Rahul Chaudhary},
+  author       = {Rahul Kurmi},
   title        = {behavior-drift-pilot: a pre-registered pilot on install-time behaviour changes
                   in compromised npm and PyPI releases},
   year         = {2026},
