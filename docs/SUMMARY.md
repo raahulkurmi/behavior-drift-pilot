@@ -3,7 +3,11 @@
 **The pre-registered compromised-side prediction failed.** Only 7 of 12 evaluable incidents had
 a majority of sampled packages with a new install-time capability (58%, 95% CI 32-81%), against
 the pre-registered threshold of 80% (H1). By ecosystem, npm incidents were 6 of 8 and PyPI
-incidents were 2 of 6.
+incidents were 2 of 6. These do not add up to the pooled 7 of 12 because the two Mini Shai-Hulud
+incidents published packages on both npm and PyPI: each is counted in both ecosystem cells
+(8 + 6 = 14 cells for 12 incidents) and the majority rule is applied within each ecosystem.
+Both are positive pooled and in 3 of their 4 ecosystem cells, so the ecosystem positives
+(6 + 2 = 8) exceed the pooled 7 by one (`results/EXPLORATORY.md`, unit: incident).
 
 The other four predictions held, none of them clearly:
 - **H2 (benign rate low).** Consecutive releases of the same packages showed a new capability in
