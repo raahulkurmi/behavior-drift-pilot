@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "behavior-drift-pilot: a pre-registered pilot on install-time behaviour changes in compromised npm and PyPI releases"
+authors:
+  - family-names: Kurmi
+    given-names: Rahul
+repository-code: "https://github.com/raahulkurmi/behavior-drift-pilot"
+url: "https://github.com/raahulkurmi/behavior-drift-pilot"
+version: 6580594
+commit: 65805940d12ed74d3bc87bc66defa8298293a2f0
+type: software
+preferred-citation:
+  type: software
+  title: "behavior-drift-pilot: a pre-registered pilot on install-time behaviour changes in compromised npm and PyPI releases"
+  authors:
+    - family-names: Kurmi
+      given-names: Rahul
+  year: 2026
+  url: "https://github.com/raahulkurmi/behavior-drift-pilot"

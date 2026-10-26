@@ -1,5 +1,13 @@
 # behavior-drift-pilot
 
+## TL;DR
+
+- **Question.** Does a compromised release of an established npm or PyPI package behave differently at install time from its own earlier release, and how often do harmless releases change the same way?
+- **What was done.** Published OpenSSF package-analysis sandbox records were read, and each compromised release was compared with an earlier clean release and with two benign baselines. No package was installed or run.
+- **Headline.** The main prediction failed: 7 of 12 evaluable incidents met the majority rule, against a threshold of 80%. At package level, 37 of 44 compromised releases showed a new install-time capability, against 12.5% (7 of 56) of benign pairs from the same packages. The pooled benign rate rose from 0.139 under 90 days between analyses to 0.444 over a year, about 3x; with no sandbox version in the records, this is the pilot's proxy for sandbox drift ([results/RESULTS.md](results/RESULTS.md)).
+- **What it does not show.** It builds no detector. The sample is 13 clustered incidents, 22 of 66 sampled pairs could not be evaluated, and only install-time behaviour is seen ([docs/LIMITATIONS.md](docs/LIMITATIONS.md)).
+- **Pre-registration.** [docs/PREREGISTRATION.md](docs/PREREGISTRATION.md), commit `cfa9957`, pushed to GitHub at 2026-10-17 14:24:52 UTC ([timeline below](#pre-registration-and-timeline)).
+
 This pilot asks whether a compromised release of an established npm or PyPI package behaves
 differently at install time from the package's own earlier release, and how often harmless
 releases change in the same way. **The main pre-registered prediction failed:** only 7 of 12
@@ -200,6 +208,15 @@ python3 scripts/exploratory.py                      # results/EXPLORATORY.md (no
 - **Fresh data.** `scripts/fetch_records.py` re-pins the records and overwrites
   `data/record_pins.csv`, so use it only to start from new data. The Step 0 commands are in
   [docs/STEP0_DATA_AVAILABILITY.md](docs/STEP0_DATA_AVAILABILITY.md).
+
+## How this fits
+
+This pilot is one of several studying one question: when a security check passes, what has it
+actually established? The question started from a threshold-signing project,
+[threshold-signing-k8s](https://github.com/raahulkurmi/threshold-signing-k8s). Here the check
+that passes is provenance: a compromised release can come from the project's own pipeline and
+still pass it, so the pilot asks whether a change in install-time behaviour adds information.
+In these records it did, but only when both analyses were recent.
 
 ## Citation and contact
 
